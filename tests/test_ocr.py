@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from anydoc_serve.ocr import TesseractEngine, normalize_langs, select_lang, text_to_markdown
+from anydoc_serve.ocr import TesseractEngine, combined_lang, normalize_langs, text_to_markdown
 from anydoc_serve.settings import Settings
 
 ALL = ["eng", "jpn", "tha"]
@@ -30,25 +30,23 @@ def test_normalize_langs_rejects(bad):
 
 
 @pytest.mark.parametrize(
-    ("script", "conf", "langs", "expected"),
+    ("langs", "expected"),
     [
-        ("Japanese", 2.3, ALL, "jpn"),
-        ("Han", 1.0, ALL, "jpn"),
-        ("Katakana", 1.0, ALL, "jpn"),
-        ("Thai", 70.6, ALL, "tha"),
-        ("Latin", 10.6, ALL, "eng"),
-        # nothing detected, or too unsure: read with every configured language
-        (None, 0.0, ALL, "eng+jpn+tha"),
-        ("Latin", 0.1, ALL, "eng+jpn+tha"),
-        # a script whose language is not configured
-        ("Thai", 70.0, ["eng", "jpn"], "eng+jpn"),
-        ("Cyrillic", 9.0, ALL, "eng+jpn+tha"),
-        # one configured language is always that language
-        ("Thai", 70.0, ["jpn"], "jpn"),
+        # every configured language in one pass, so mixed pages read (the 2026-09-28 review defect),
+        # always in the measured order jpn, tha, eng: eng ahead of tha broke Thai
+        (["eng", "jpn", "tha"], "jpn+tha+eng"),
+        (["tha", "eng"], "tha+eng"),
+        (["eng", "jpn"], "jpn+eng"),
+        (["eng", "tha", "jpn"], "jpn+tha+eng"),
+        (["tha"], "tha"),
     ],
 )
-def test_select_lang(script, conf, langs, expected):
-    assert select_lang(script, conf, langs) == expected
+def test_combined_lang(langs, expected):
+    assert combined_lang(langs) == expected
+
+
+def test_markdown_recomposes_thai_sara_am():
+    assert text_to_markdown("ทํางาน\n") == "ทำงาน\n"
 
 
 def test_markdown_drops_spaces_between_japanese_characters_only():

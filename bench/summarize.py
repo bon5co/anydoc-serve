@@ -12,40 +12,49 @@ from __future__ import annotations
 import re
 import statistics
 import sys
-import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from texts import PAGES  # noqa: E402
+from metric import norm  # noqa: E402
+from texts import MIXED, PAGES, REVIEW_PAGE  # noqa: E402
 
-LINE = re.compile(r"^(?P<engine>.+?)\s+(?P<file>(eng|jpn|tha)-p\d-(clean|scan)\.(png|jpg))\s+CER (?P<cer>[\d.]+)\s+(?P<s>[\d.]+)s(\s+.*)?$")
+TEXTS = {**PAGES, **MIXED, "review": ["\n".join(REVIEW_PAGE)]}
+LINE = re.compile(
+    r"^(?P<engine>.+?)\s+(?P<file>(?P<lang>[a-z-]+)-p(?P<page>\d)-(?P<variant>clean|scan)\.(png|jpg))"
+    r"\s+CER (?P<cer>[\d.]+)\s+(?P<s>[\d.]+)s(\s+.*)?$"
+)
+COLUMNS = [("eng", "eng"), ("jpn", "jpn"), ("tha", "tha"), ("mix-je", "jpn+eng"), ("mix-te", "tha+eng"),
+           ("mix-jte", "jpn+tha+eng"), ("review", "review page")]  # fmt: skip
 
 
-def chars(file: str) -> int:
-    lang, page = file[:3], int(file[5])
-    return len("".join(c for c in unicodedata.normalize("NFKC", PAGES[lang][page - 1]) if not c.isspace()))
+def chars(lang: str, page: int) -> int:
+    return len(norm(TEXTS[lang][page - 1]))
 
 
 def main(path: str) -> None:
-    rows: dict[str, list[tuple[str, float, float]]] = defaultdict(list)
+    rows: dict[str, list[re.Match[str]]] = defaultdict(list)
     for line in Path(path).read_text().splitlines():
         m = LINE.match(line.strip())
-        if m:
-            rows[m["engine"].strip()].append((m["file"], float(m["cer"]), float(m["s"])))
+        if m and m["lang"] in TEXTS:
+            rows[m["engine"].strip()].append(m)
 
-    def cell(items, lang: str, variant: str) -> str:
-        sel = [(f, c) for f, c, _ in items if f.startswith(lang) and variant in f]
+    def cell(items: list[re.Match[str]], lang: str, variant: str) -> str:
+        sel = [m for m in items if m["lang"] == lang and m["variant"] == variant]
         if not sel:
             return "n/m"
-        return f"{100 * sum(c * chars(f) for f, c in sel) / sum(chars(f) for f, _ in sel):.1f}%"
+        weight = [chars(m["lang"], int(m["page"])) for m in sel]
+        return f"{100 * sum(float(m['cer']) * w for m, w in zip(sel, weight)) / sum(weight):.1f}%"
 
-    print("| Engine | eng scan | jpn scan | tha scan | eng clean | jpn clean | tha clean | s/page, median | pages |")
-    print("| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |")
-    for engine, items in rows.items():
-        cells = [cell(items, lang, v) for v in ("scan", "clean") for lang in ("eng", "jpn", "tha")]
-        seconds = statistics.median(s for _, _, s in items)
-        print(f"| {engine} | {' | '.join(cells)} | {seconds:.2f} | {len(items)} |")
+    for variant in ("scan", "clean"):
+        print(f"**{variant}**\n")
+        print("| Engine | " + " | ".join(title for _, title in COLUMNS) + " | s/page, median | pages |")
+        print("| --- |" + " ---: |" * (len(COLUMNS) + 2))
+        for engine, items in rows.items():
+            cells = [cell(items, lang, variant) for lang, _ in COLUMNS]
+            seconds = statistics.median(float(m["s"]) for m in items)
+            print(f"| {engine} | {' | '.join(cells)} | {seconds:.2f} | {len(items)} |")
+        print()
 
 
 if __name__ == "__main__":

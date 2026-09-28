@@ -1,146 +1,378 @@
-Tesseract 5.5 tessdata_fast, page language         jpn-p1-clean.png       CER 0.017  0.51s
-Tesseract 5.5 tessdata_fast, page language         jpn-p1-scan.jpg        CER 0.030  0.40s
-Tesseract 5.5 tessdata_fast, page language         jpn-p2-clean.png       CER 0.039  0.41s
-Tesseract 5.5 tessdata_fast, page language         jpn-p2-scan.jpg        CER 0.026  0.38s
-Tesseract 5.5 tessdata_fast, page language         tha-p1-clean.png       CER 0.000  0.33s
-Tesseract 5.5 tessdata_fast, page language         tha-p1-scan.jpg        CER 0.585  0.86s
-Tesseract 5.5 tessdata_fast, page language         tha-p2-clean.png       CER 0.000  0.33s
-Tesseract 5.5 tessdata_fast, page language         tha-p2-scan.jpg        CER 0.099  0.46s
-Tesseract 5.5 tessdata_fast, page language         eng-p1-clean.png       CER 0.000  0.35s
-Tesseract 5.5 tessdata_fast, page language         eng-p1-scan.jpg        CER 0.000  0.33s
-Tesseract 5.5 tessdata_fast, page language         eng-p2-clean.png       CER 0.000  0.34s
-Tesseract 5.5 tessdata_fast, page language         eng-p2-scan.jpg        CER 0.000  0.28s
-Tesseract 5.5 tessdata, page language              jpn-p1-clean.png       CER 0.009  0.85s
-Tesseract 5.5 tessdata, page language              jpn-p1-scan.jpg        CER 0.017  1.16s
-Tesseract 5.5 tessdata, page language              jpn-p2-clean.png       CER 0.146  0.78s
-Tesseract 5.5 tessdata, page language              jpn-p2-scan.jpg        CER 0.009  0.73s
-Tesseract 5.5 tessdata, page language              tha-p1-clean.png       CER 0.000  0.43s
-Tesseract 5.5 tessdata, page language              tha-p1-scan.jpg        CER 0.585  1.00s
-Tesseract 5.5 tessdata, page language              tha-p2-clean.png       CER 0.000  0.33s
-Tesseract 5.5 tessdata, page language              tha-p2-scan.jpg        CER 0.099  0.46s
-Tesseract 5.5 tessdata, page language              eng-p1-clean.png       CER 0.000  0.48s
-Tesseract 5.5 tessdata, page language              eng-p1-scan.jpg        CER 0.000  0.45s
-Tesseract 5.5 tessdata, page language              eng-p2-clean.png       CER 0.000  0.41s
-Tesseract 5.5 tessdata, page language              eng-p2-scan.jpg        CER 0.000  0.39s
-Tesseract 5.5 tessdata_best, page language         jpn-p1-clean.png       CER 0.017  1.63s
-Tesseract 5.5 tessdata_best, page language         jpn-p1-scan.jpg        CER 0.013  1.69s
-Tesseract 5.5 tessdata_best, page language         jpn-p2-clean.png       CER 0.155  1.37s
-Tesseract 5.5 tessdata_best, page language         jpn-p2-scan.jpg        CER 0.034  1.67s
-Tesseract 5.5 tessdata_best, page language         tha-p1-clean.png       CER 0.000  0.80s
-Tesseract 5.5 tessdata_best, page language         tha-p1-scan.jpg        CER 0.588  1.37s
-Tesseract 5.5 tessdata_best, page language         tha-p2-clean.png       CER 0.000  0.78s
-Tesseract 5.5 tessdata_best, page language         tha-p2-scan.jpg        CER 0.105  1.47s
-Tesseract 5.5 tessdata_best, page language         eng-p1-clean.png       CER 0.000  1.82s
-Tesseract 5.5 tessdata_best, page language         eng-p1-scan.jpg        CER 0.000  1.25s
-Tesseract 5.5 tessdata_best, page language         eng-p2-clean.png       CER 0.000  1.05s
-Tesseract 5.5 tessdata_best, page language         eng-p2-scan.jpg        CER 0.000  1.10s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p1-clean.png       CER 0.216  1.72s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p1-scan.jpg        CER 0.026  1.46s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p2-clean.png       CER 0.043  1.44s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p2-scan.jpg        CER 0.034  1.40s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p1-clean.png       CER 0.000  0.72s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p1-scan.jpg        CER 0.585  1.36s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p2-clean.png       CER 0.000  0.88s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p2-scan.jpg        CER 0.130  1.34s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p1-clean.png       CER 0.000  0.46s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p1-scan.jpg        CER 0.002  0.45s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p2-clean.png       CER 0.000  0.66s
-Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p2-scan.jpg        CER 0.000  0.44s
-Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p1-clean.png       CER 0.030  0.69s
-Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p1-scan.jpg        CER 0.022  0.61s
-Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p2-clean.png       CER 0.021  0.65s
-Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p2-scan.jpg        CER 0.030  0.57s
-Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p1-clean.png       CER 0.000  0.52s
-Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p1-scan.jpg        CER 0.068  0.56s
-Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p2-clean.png       CER 0.000  0.50s
-Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p2-scan.jpg        CER 0.087  0.68s
-Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p1-clean.png       CER 0.000  0.53s
-Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p1-scan.jpg        CER 0.000  0.44s
-Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p2-clean.png       CER 0.000  0.35s
-Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p2-scan.jpg        CER 0.000  0.32s
-Tesseract 5.5 tessdata + Sauvola, page language    jpn-p1-clean.png       CER 0.009  0.69s
-Tesseract 5.5 tessdata + Sauvola, page language    jpn-p1-scan.jpg        CER 0.013  1.24s
-Tesseract 5.5 tessdata + Sauvola, page language    jpn-p2-clean.png       CER 0.142  0.67s
-Tesseract 5.5 tessdata + Sauvola, page language    jpn-p2-scan.jpg        CER 0.009  0.60s
-Tesseract 5.5 tessdata + Sauvola, page language    tha-p1-clean.png       CER 0.000  0.37s
-Tesseract 5.5 tessdata + Sauvola, page language    tha-p1-scan.jpg        CER 0.068  0.42s
-Tesseract 5.5 tessdata + Sauvola, page language    tha-p2-clean.png       CER 0.000  0.37s
-Tesseract 5.5 tessdata + Sauvola, page language    tha-p2-scan.jpg        CER 0.087  0.46s
-Tesseract 5.5 tessdata + Sauvola, page language    eng-p1-clean.png       CER 0.000  0.53s
-Tesseract 5.5 tessdata + Sauvola, page language    eng-p1-scan.jpg        CER 0.000  0.48s
-Tesseract 5.5 tessdata + Sauvola, page language    eng-p2-clean.png       CER 0.000  0.44s
-Tesseract 5.5 tessdata + Sauvola, page language    eng-p2-scan.jpg        CER 0.000  0.41s
-Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p1-clean.png       CER 0.026  2.25s
-Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p1-scan.jpg        CER 0.017  2.01s
-Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p2-clean.png       CER 0.155  1.96s
-Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p2-scan.jpg        CER 0.034  1.83s
-Tesseract 5.5 tessdata_best + Sauvola, page language tha-p1-clean.png       CER 0.000  0.83s
-Tesseract 5.5 tessdata_best + Sauvola, page language tha-p1-scan.jpg        CER 0.080  1.16s
-Tesseract 5.5 tessdata_best + Sauvola, page language tha-p2-clean.png       CER 0.000  0.96s
-Tesseract 5.5 tessdata_best + Sauvola, page language tha-p2-scan.jpg        CER 0.087  1.29s
-Tesseract 5.5 tessdata_best + Sauvola, page language eng-p1-clean.png       CER 0.000  1.39s
-Tesseract 5.5 tessdata_best + Sauvola, page language eng-p1-scan.jpg        CER 0.000  1.41s
-Tesseract 5.5 tessdata_best + Sauvola, page language eng-p2-clean.png       CER 0.000  1.33s
-Tesseract 5.5 tessdata_best + Sauvola, page language eng-p2-scan.jpg        CER 0.000  1.06s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p1-clean.png       CER 0.030  1.57s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p1-scan.jpg        CER 0.022  1.17s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p2-clean.png       CER 0.034  1.04s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p2-scan.jpg        CER 0.030  0.96s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p1-clean.png       CER 0.019  0.51s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p1-scan.jpg        CER 0.068  0.81s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p2-clean.png       CER 0.000  0.55s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p2-scan.jpg        CER 0.084  0.96s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p1-clean.png       CER 0.000  0.56s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p1-scan.jpg        CER 0.002  0.49s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p2-clean.png       CER 0.000  0.69s
-Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p2-scan.jpg        CER 0.000  0.59s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection jpn-p1-clean.png       CER 0.030  1.38s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection jpn-p1-scan.jpg        CER 0.022  1.15s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection jpn-p2-clean.png       CER 0.021  1.26s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection jpn-p2-scan.jpg        CER 0.030  1.09s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection tha-p1-clean.png       CER 0.000  1.01s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection tha-p1-scan.jpg        CER 0.068  0.94s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection tha-p2-clean.png       CER 0.000  1.03s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection tha-p2-scan.jpg        CER 0.087  1.07s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection eng-p1-clean.png       CER 0.000  0.99s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection eng-p1-scan.jpg        CER 0.000  0.94s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection eng-p2-clean.png       CER 0.000  0.94s
-Tesseract 5.5 tessdata_fast + Sauvola, language from script detection eng-p2-scan.jpg        CER 0.000  0.93s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p1-clean.png       CER 0.030  1.58s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p1-scan.jpg        CER 0.022  1.34s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p2-clean.png       CER 0.039  1.36s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p2-scan.jpg        CER 0.030  1.21s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p1-clean.png       CER 0.000  1.03s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p1-scan.jpg        CER 0.071  1.13s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p2-clean.png       CER 0.000  1.07s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p2-scan.jpg        CER 0.087  1.23s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p1-clean.png       CER 0.000  1.08s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p1-scan.jpg        CER 0.000  1.08s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p2-clean.png       CER 0.000  0.96s
-Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p2-scan.jpg        CER 0.000  0.98s
-RapidOCR PP-OCRv5 mobile                           jpn-p1-clean.png       CER 0.017  7.75s
-RapidOCR PP-OCRv5 mobile                           jpn-p1-scan.jpg        CER 0.172  6.02s
-RapidOCR PP-OCRv5 mobile                           jpn-p2-clean.png       CER 0.004  7.52s
-RapidOCR PP-OCRv5 mobile                           jpn-p2-scan.jpg        CER 0.039  4.58s
-RapidOCR PP-OCRv5 mobile                           tha-p1-clean.png       CER 0.000  4.95s
-RapidOCR PP-OCRv5 mobile                           tha-p1-scan.jpg        CER 0.006  5.35s
-RapidOCR PP-OCRv5 mobile                           tha-p2-clean.png       CER 0.000  3.51s
-RapidOCR PP-OCRv5 mobile                           tha-p2-scan.jpg        CER 0.003  4.61s
-RapidOCR PP-OCRv5 mobile                           eng-p1-clean.png       CER 0.440  5.05s
-RapidOCR PP-OCRv5 mobile                           eng-p1-scan.jpg        CER 0.138  6.26s
-RapidOCR PP-OCRv5 mobile                           eng-p2-clean.png       CER 0.000  6.45s
-RapidOCR PP-OCRv5 mobile                           eng-p2-scan.jpg        CER 0.000  6.24s
-RapidOCR PP-OCRv6 small                            jpn-p1-clean.png       CER 0.004  7.61s
-RapidOCR PP-OCRv6 small                            jpn-p1-scan.jpg        CER 0.004  7.50s
-RapidOCR PP-OCRv6 small                            jpn-p2-clean.png       CER 0.000  8.92s
-RapidOCR PP-OCRv6 small                            jpn-p2-scan.jpg        CER 0.000  9.28s
-RapidOCR PP-OCRv6 small                            tha-p1-clean.png       CER 0.003  7.29s
-RapidOCR PP-OCRv6 small                            tha-p1-scan.jpg        CER 0.006  8.10s
-RapidOCR PP-OCRv6 small                            tha-p2-clean.png       CER 0.205  6.77s
-RapidOCR PP-OCRv6 small                            tha-p2-scan.jpg        CER 0.024  6.05s
-RapidOCR PP-OCRv6 small                            eng-p1-clean.png       CER 0.145  6.45s
-RapidOCR PP-OCRv6 small                            eng-p1-scan.jpg        CER 0.136  8.72s
-RapidOCR PP-OCRv6 small                            eng-p2-clean.png       CER 0.000  6.95s
-RapidOCR PP-OCRv6 small                            eng-p2-scan.jpg        CER 0.000  7.11s
-RapidOCR PP-OCRv6 medium                           jpn-p1-clean.png       CER 0.000  64.00s
-RapidOCR PP-OCRv6 medium                           jpn-p1-scan.jpg        CER 0.000  63.38s
+Tesseract 5.5 tessdata_fast, page language         jpn-p1-clean.png       CER 0.017  0.47s
+Tesseract 5.5 tessdata_fast, page language         jpn-p1-scan.jpg        CER 0.030  0.37s
+Tesseract 5.5 tessdata_fast, page language         jpn-p2-clean.png       CER 0.105  0.39s
+Tesseract 5.5 tessdata_fast, page language         jpn-p2-scan.jpg        CER 0.117  0.38s
+Tesseract 5.5 tessdata_fast, page language         tha-p1-clean.png       CER 0.019  0.32s
+Tesseract 5.5 tessdata_fast, page language         tha-p1-scan.jpg        CER 0.019  0.34s
+Tesseract 5.5 tessdata_fast, page language         tha-p2-clean.png       CER 0.033  0.33s
+Tesseract 5.5 tessdata_fast, page language         tha-p2-scan.jpg        CER 0.276  0.50s
+Tesseract 5.5 tessdata_fast, page language         eng-p1-clean.png       CER 0.000  0.34s
+Tesseract 5.5 tessdata_fast, page language         eng-p1-scan.jpg        CER 0.002  0.34s
+Tesseract 5.5 tessdata_fast, page language         eng-p2-clean.png       CER 0.005  0.29s
+Tesseract 5.5 tessdata_fast, page language         eng-p2-scan.jpg        CER 0.005  0.28s
+Tesseract 5.5 tessdata_fast, page language         mix-je-p1-clean.png    CER 0.031  0.38s
+Tesseract 5.5 tessdata_fast, page language         mix-je-p1-scan.jpg     CER 0.035  0.37s
+Tesseract 5.5 tessdata_fast, page language         mix-te-p1-clean.png    CER 0.028  0.40s
+Tesseract 5.5 tessdata_fast, page language         mix-te-p1-scan.jpg     CER 1.000  0.71s
+Tesseract 5.5 tessdata_fast, page language         mix-jte-p1-clean.png   CER 0.062  0.50s
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Tesseract 5.5 tessdata_fast, page language         mix-jte-p1-scan.jpg    CER 1.000  0.73s
+Tesseract 5.5 tessdata_fast, page language         review-p1-clean.png    CER 0.017  0.08s
+Tesseract 5.5 tessdata_fast, page language         review-p1-scan.jpg     CER 0.017  0.09s
+Tesseract 5.5 tessdata, page language              jpn-p1-clean.png       CER 0.009  0.61s
+Tesseract 5.5 tessdata, page language              jpn-p1-scan.jpg        CER 0.022  0.88s
+Tesseract 5.5 tessdata, page language              jpn-p2-clean.png       CER 0.381  0.56s
+Tesseract 5.5 tessdata, page language              jpn-p2-scan.jpg        CER 0.360  0.54s
+Tesseract 5.5 tessdata, page language              tha-p1-clean.png       CER 0.782  0.32s
+Tesseract 5.5 tessdata, page language              tha-p1-scan.jpg        CER 0.782  0.32s
+Tesseract 5.5 tessdata, page language              tha-p2-clean.png       CER 0.834  0.32s
+Tesseract 5.5 tessdata, page language              tha-p2-scan.jpg        CER 1.062  0.47s
+Tesseract 5.5 tessdata, page language              eng-p1-clean.png       CER 0.000  0.47s
+Tesseract 5.5 tessdata, page language              eng-p1-scan.jpg        CER 0.000  0.44s
+Tesseract 5.5 tessdata, page language              eng-p2-clean.png       CER 0.002  0.39s
+Tesseract 5.5 tessdata, page language              eng-p2-scan.jpg        CER 0.000  0.37s
+Tesseract 5.5 tessdata, page language              mix-je-p1-clean.png    CER 0.109  0.51s
+Tesseract 5.5 tessdata, page language              mix-je-p1-scan.jpg     CER 0.083  0.53s
+Tesseract 5.5 tessdata, page language              mix-te-p1-clean.png    CER 0.268  0.49s
+Tesseract 5.5 tessdata, page language              mix-te-p1-scan.jpg     CER 1.000  0.76s
+Tesseract 5.5 tessdata, page language              mix-jte-p1-clean.png   CER 0.262  0.70s
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Tesseract 5.5 tessdata, page language              mix-jte-p1-scan.jpg    CER 0.962  1.02s
+Tesseract 5.5 tessdata, page language              review-p1-clean.png    CER 0.167  0.12s
+Tesseract 5.5 tessdata, page language              review-p1-scan.jpg     CER 0.217  0.13s
+Tesseract 5.5 tessdata_best, page language         jpn-p1-clean.png       CER 0.017  1.46s
+Tesseract 5.5 tessdata_best, page language         jpn-p1-scan.jpg        CER 0.017  1.31s
+Tesseract 5.5 tessdata_best, page language         jpn-p2-clean.png       CER 0.188  1.35s
+Tesseract 5.5 tessdata_best, page language         jpn-p2-scan.jpg        CER 0.192  1.23s
+Tesseract 5.5 tessdata_best, page language         tha-p1-clean.png       CER 0.019  0.57s
+Tesseract 5.5 tessdata_best, page language         tha-p1-scan.jpg        CER 0.019  0.57s
+Tesseract 5.5 tessdata_best, page language         tha-p2-clean.png       CER 0.033  0.58s
+Tesseract 5.5 tessdata_best, page language         tha-p2-scan.jpg        CER 0.270  0.99s
+Tesseract 5.5 tessdata_best, page language         eng-p1-clean.png       CER 0.000  1.28s
+Tesseract 5.5 tessdata_best, page language         eng-p1-scan.jpg        CER 0.000  1.14s
+Tesseract 5.5 tessdata_best, page language         eng-p2-clean.png       CER 0.002  1.07s
+Tesseract 5.5 tessdata_best, page language         eng-p2-scan.jpg        CER 0.002  0.92s
+Tesseract 5.5 tessdata_best, page language         mix-je-p1-clean.png    CER 0.057  1.45s
+Tesseract 5.5 tessdata_best, page language         mix-je-p1-scan.jpg     CER 0.039  1.27s
+Tesseract 5.5 tessdata_best, page language         mix-te-p1-clean.png    CER 0.044  1.15s
+Tesseract 5.5 tessdata_best, page language         mix-te-p1-scan.jpg     CER 1.000  0.79s
+Tesseract 5.5 tessdata_best, page language         mix-jte-p1-clean.png   CER 0.219  1.37s
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Tesseract 5.5 tessdata_best, page language         mix-jte-p1-scan.jpg    CER 0.929  0.98s
+Tesseract 5.5 tessdata_best, page language         review-p1-clean.png    CER 0.017  0.30s
+Tesseract 5.5 tessdata_best, page language         review-p1-scan.jpg     CER 0.017  0.24s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p1-clean.png       CER 0.263  1.29s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p1-scan.jpg        CER 0.099  1.24s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p2-clean.png       CER 0.205  0.89s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           jpn-p2-scan.jpg        CER 0.201  0.81s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p1-clean.png       CER 0.782  0.52s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p1-scan.jpg        CER 0.782  0.44s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p2-clean.png       CER 0.834  0.66s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           tha-p2-scan.jpg        CER 1.056  0.91s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p1-clean.png       CER 0.000  0.39s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p1-scan.jpg        CER 0.000  0.40s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p2-clean.png       CER 0.005  0.60s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           eng-p2-scan.jpg        CER 0.005  0.48s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-je-p1-clean.png    CER 0.039  0.46s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-je-p1-scan.jpg     CER 0.044  0.48s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-te-p1-clean.png    CER 0.272  0.49s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-te-p1-scan.jpg     CER 1.000  0.81s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-jte-p1-clean.png   CER 0.219  0.51s
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           mix-jte-p1-scan.jpg    CER 1.000  0.78s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           review-p1-clean.png    CER 0.033  0.12s
+Tesseract 5.5 tessdata_fast, eng+jpn+tha           review-p1-scan.jpg     CER 0.033  0.12s
+Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p1-clean.png       CER 0.030  0.48s
+Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p1-scan.jpg        CER 0.022  0.45s
+Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p2-clean.png       CER 0.096  0.42s
+Tesseract 5.5 tessdata_fast + Sauvola, page language jpn-p2-scan.jpg        CER 0.197  0.44s
+Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p1-clean.png       CER 0.019  0.37s
+Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p1-scan.jpg        CER 0.019  0.37s
+Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p2-clean.png       CER 0.033  0.37s
+Tesseract 5.5 tessdata_fast + Sauvola, page language tha-p2-scan.jpg        CER 0.033  0.38s
+Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p1-clean.png       CER 0.000  0.39s
+Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p1-scan.jpg        CER 0.002  0.39s
+Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p2-clean.png       CER 0.005  0.34s
+Tesseract 5.5 tessdata_fast + Sauvola, page language eng-p2-scan.jpg        CER 0.005  0.34s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-je-p1-clean.png    CER 0.035  0.37s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-je-p1-scan.jpg     CER 0.039  0.40s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-te-p1-clean.png    CER 0.016  0.43s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-te-p1-scan.jpg     CER 0.028  0.42s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-jte-p1-clean.png   CER 0.062  0.46s
+Tesseract 5.5 tessdata_fast + Sauvola, page language mix-jte-p1-scan.jpg    CER 0.043  0.48s
+Tesseract 5.5 tessdata_fast + Sauvola, page language review-p1-clean.png    CER 0.000  0.09s
+Tesseract 5.5 tessdata_fast + Sauvola, page language review-p1-scan.jpg     CER 0.017  0.09s
+Tesseract 5.5 tessdata + Sauvola, page language    jpn-p1-clean.png       CER 0.009  0.66s
+Tesseract 5.5 tessdata + Sauvola, page language    jpn-p1-scan.jpg        CER 0.017  0.98s
+Tesseract 5.5 tessdata + Sauvola, page language    jpn-p2-clean.png       CER 0.381  0.59s
+Tesseract 5.5 tessdata + Sauvola, page language    jpn-p2-scan.jpg        CER 0.360  0.60s
+Tesseract 5.5 tessdata + Sauvola, page language    tha-p1-clean.png       CER 0.782  0.36s
+Tesseract 5.5 tessdata + Sauvola, page language    tha-p1-scan.jpg        CER 0.782  0.38s
+Tesseract 5.5 tessdata + Sauvola, page language    tha-p2-clean.png       CER 0.834  0.38s
+Tesseract 5.5 tessdata + Sauvola, page language    tha-p2-scan.jpg        CER 0.834  0.39s
+Tesseract 5.5 tessdata + Sauvola, page language    eng-p1-clean.png       CER 0.000  0.52s
+Tesseract 5.5 tessdata + Sauvola, page language    eng-p1-scan.jpg        CER 0.000  0.51s
+Tesseract 5.5 tessdata + Sauvola, page language    eng-p2-clean.png       CER 0.002  0.45s
+Tesseract 5.5 tessdata + Sauvola, page language    eng-p2-scan.jpg        CER 0.005  0.43s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-je-p1-clean.png    CER 0.079  0.61s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-je-p1-scan.jpg     CER 0.074  0.59s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-te-p1-clean.png    CER 0.268  0.55s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-te-p1-scan.jpg     CER 0.280  0.55s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-jte-p1-clean.png   CER 0.290  0.86s
+Tesseract 5.5 tessdata + Sauvola, page language    mix-jte-p1-scan.jpg    CER 0.267  0.74s
+Tesseract 5.5 tessdata + Sauvola, page language    review-p1-clean.png    CER 0.217  0.14s
+Tesseract 5.5 tessdata + Sauvola, page language    review-p1-scan.jpg     CER 0.183  0.15s
+Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p1-clean.png       CER 0.026  1.63s
+Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p1-scan.jpg        CER 0.017  1.44s
+Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p2-clean.png       CER 0.167  1.38s
+Tesseract 5.5 tessdata_best + Sauvola, page language jpn-p2-scan.jpg        CER 0.184  1.33s
+Tesseract 5.5 tessdata_best + Sauvola, page language tha-p1-clean.png       CER 0.019  0.63s
+Tesseract 5.5 tessdata_best + Sauvola, page language tha-p1-scan.jpg        CER 0.019  0.63s
+Tesseract 5.5 tessdata_best + Sauvola, page language tha-p2-clean.png       CER 0.033  0.64s
+Tesseract 5.5 tessdata_best + Sauvola, page language tha-p2-scan.jpg        CER 0.033  0.63s
+Tesseract 5.5 tessdata_best + Sauvola, page language eng-p1-clean.png       CER 0.000  1.25s
+Tesseract 5.5 tessdata_best + Sauvola, page language eng-p1-scan.jpg        CER 0.000  1.17s
+Tesseract 5.5 tessdata_best + Sauvola, page language eng-p2-clean.png       CER 0.002  1.04s
+Tesseract 5.5 tessdata_best + Sauvola, page language eng-p2-scan.jpg        CER 0.002  0.95s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-je-p1-clean.png    CER 0.035  1.31s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-je-p1-scan.jpg     CER 0.039  1.25s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-te-p1-clean.png    CER 0.016  1.07s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-te-p1-scan.jpg     CER 0.024  1.03s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-jte-p1-clean.png   CER 0.248  1.49s
+Tesseract 5.5 tessdata_best + Sauvola, page language mix-jte-p1-scan.jpg    CER 0.219  1.52s
+Tesseract 5.5 tessdata_best + Sauvola, page language review-p1-clean.png    CER 0.017  0.25s
+Tesseract 5.5 tessdata_best + Sauvola, page language review-p1-scan.jpg     CER 0.017  0.36s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p1-clean.png       CER 0.030  1.52s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p1-scan.jpg        CER 0.022  0.91s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p2-clean.png       CER 0.180  0.90s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha jpn-p2-scan.jpg        CER 0.301  0.79s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p1-clean.png       CER 0.788  0.49s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p1-scan.jpg        CER 0.788  0.54s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p2-clean.png       CER 0.834  0.50s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha tha-p2-scan.jpg        CER 0.834  0.62s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p1-clean.png       CER 0.000  0.40s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p1-scan.jpg        CER 0.000  0.42s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p2-clean.png       CER 0.005  0.61s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha eng-p2-scan.jpg        CER 0.005  0.51s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-je-p1-clean.png    CER 0.044  0.48s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-je-p1-scan.jpg     CER 0.044  0.53s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-te-p1-clean.png    CER 0.268  0.49s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-te-p1-scan.jpg     CER 0.268  0.48s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-jte-p1-clean.png   CER 0.229  0.50s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha mix-jte-p1-scan.jpg    CER 0.214  0.54s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha review-p1-clean.png    CER 0.017  0.12s
+Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha review-p1-scan.jpg     CER 0.033  0.12s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng jpn-p1-clean.png       CER 0.030  1.51s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng jpn-p1-scan.jpg        CER 0.022  0.92s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng jpn-p2-clean.png       CER 0.096  0.95s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng jpn-p2-scan.jpg        CER 0.226  0.81s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng tha-p1-clean.png       CER 0.019  0.45s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng tha-p1-scan.jpg        CER 0.019  0.52s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng tha-p2-clean.png       CER 0.033  0.46s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng tha-p2-scan.jpg        CER 0.033  0.59s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng eng-p1-clean.png       CER 0.002  0.52s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng eng-p1-scan.jpg        CER 0.002  0.47s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng eng-p2-clean.png       CER 0.005  0.69s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng eng-p2-scan.jpg        CER 0.005  0.63s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-je-p1-clean.png    CER 0.039  0.49s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-je-p1-scan.jpg     CER 0.039  0.58s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-te-p1-clean.png    CER 0.068  0.56s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-te-p1-scan.jpg     CER 0.028  0.54s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-jte-p1-clean.png   CER 0.062  0.47s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng mix-jte-p1-scan.jpg    CER 0.043  0.50s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng review-p1-clean.png    CER 0.000  0.12s
+Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng review-p1-scan.jpg     CER 0.017  0.13s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language jpn-p1-clean.png       CER 0.030  1.37s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language jpn-p1-scan.jpg        CER 0.022  1.25s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language jpn-p2-clean.png       CER 0.096  1.22s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language jpn-p2-scan.jpg        CER 0.197  1.21s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language tha-p1-clean.png       CER 0.019  1.03s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language tha-p1-scan.jpg        CER 0.019  0.99s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language tha-p2-clean.png       CER 0.033  1.14s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language tha-p2-scan.jpg        CER 0.033  0.99s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language eng-p1-clean.png       CER 0.000  1.07s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language eng-p1-scan.jpg        CER 0.002  1.07s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language eng-p2-clean.png       CER 0.005  1.02s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language eng-p2-scan.jpg        CER 0.005  1.01s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-je-p1-clean.png    CER 0.249  0.88s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-je-p1-scan.jpg     CER 0.262  0.82s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-te-p1-clean.png    CER 0.440  0.90s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-te-p1-scan.jpg     CER 0.432  0.84s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-jte-p1-clean.png   CER 0.476  0.85s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language mix-jte-p1-scan.jpg    CER 0.452  0.76s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language review-p1-clean.png    CER 0.217  0.19s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language review-p1-scan.jpg     CER 0.200  0.19s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p1-clean.png       CER 0.030  1.53s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p1-scan.jpg        CER 0.022  1.29s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p2-clean.png       CER 0.096  1.36s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng jpn-p2-scan.jpg        CER 0.226  1.29s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p1-clean.png       CER 0.019  0.99s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p1-scan.jpg        CER 0.019  1.02s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p2-clean.png       CER 0.033  1.03s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng tha-p2-scan.jpg        CER 0.033  1.01s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p1-clean.png       CER 0.000  1.00s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p1-scan.jpg        CER 0.002  1.03s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p2-clean.png       CER 0.005  1.03s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng eng-p2-scan.jpg        CER 0.005  0.98s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-je-p1-clean.png    CER 0.249  0.85s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-je-p1-scan.jpg     CER 0.262  0.78s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-te-p1-clean.png    CER 0.016  0.97s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-te-p1-scan.jpg     CER 0.028  0.90s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-jte-p1-clean.png   CER 0.476  0.79s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng mix-jte-p1-scan.jpg    CER 0.452  0.74s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng review-p1-clean.png    CER 0.217  0.18s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng review-p1-scan.jpg     CER 0.200  0.18s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all jpn-p1-clean.png       CER 0.030  2.24s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all jpn-p1-scan.jpg        CER 0.022  1.59s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all jpn-p2-clean.png       CER 0.096  1.68s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all jpn-p2-scan.jpg        CER 0.226  1.48s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all tha-p1-clean.png       CER 0.019  0.97s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all tha-p1-scan.jpg        CER 0.019  1.04s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all tha-p2-clean.png       CER 0.033  1.07s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all tha-p2-scan.jpg        CER 0.033  1.08s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all eng-p1-clean.png       CER 0.000  1.02s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all eng-p1-scan.jpg        CER 0.000  1.06s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all eng-p2-clean.png       CER 0.005  1.26s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all eng-p2-scan.jpg        CER 0.005  1.15s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-je-p1-clean.png    CER 0.044  1.05s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-je-p1-scan.jpg     CER 0.044  1.05s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-te-p1-clean.png    CER 0.016  0.98s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-te-p1-scan.jpg     CER 0.028  0.90s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-jte-p1-clean.png   CER 0.229  1.02s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all mix-jte-p1-scan.jpg    CER 0.214  1.02s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all review-p1-clean.png    CER 0.017  0.24s
+Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all review-p1-scan.jpg     CER 0.033  0.25s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      jpn-p1-clean.png       CER 0.009  1.71s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      jpn-p1-scan.jpg        CER 0.082  1.74s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      jpn-p2-clean.png       CER 0.347  1.12s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      jpn-p2-scan.jpg        CER 0.389  1.21s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      tha-p1-clean.png       CER 0.782  0.60s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      tha-p1-scan.jpg        CER 0.785  0.72s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      tha-p2-clean.png       CER 0.834  0.63s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      tha-p2-scan.jpg        CER 0.834  0.82s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      eng-p1-clean.png       CER 0.004  0.68s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      eng-p1-scan.jpg        CER 0.002  0.56s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      eng-p2-clean.png       CER 0.002  0.59s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      eng-p2-scan.jpg        CER 0.010  0.56s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-je-p1-clean.png    CER 0.131  0.53s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-je-p1-scan.jpg     CER 0.105  0.59s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-te-p1-clean.png    CER 0.268  0.90s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-te-p1-scan.jpg     CER 0.280  0.96s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-jte-p1-clean.png   CER 0.214  0.71s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      mix-jte-p1-scan.jpg    CER 0.248  0.73s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      review-p1-clean.png    CER 0.183  0.18s
+Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha      review-p1-scan.jpg     CER 0.217  0.17s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all jpn-p1-clean.png       CER 0.009  2.63s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all jpn-p1-scan.jpg        CER 0.017  2.58s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all jpn-p2-clean.png       CER 0.368  1.90s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all jpn-p2-scan.jpg        CER 0.293  1.81s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all tha-p1-clean.png       CER 0.782  1.07s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all tha-p1-scan.jpg        CER 0.785  1.21s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all tha-p2-clean.png       CER 0.834  1.10s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all tha-p2-scan.jpg        CER 0.834  1.25s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all eng-p1-clean.png       CER 0.011  1.50s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all eng-p1-scan.jpg        CER 0.004  1.32s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all eng-p2-clean.png       CER 0.002  1.36s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all eng-p2-scan.jpg        CER 0.010  1.30s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-je-p1-clean.png    CER 0.083  1.20s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-je-p1-scan.jpg     CER 0.074  1.22s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-te-p1-clean.png    CER 0.268  1.13s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-te-p1-scan.jpg     CER 0.280  1.16s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-jte-p1-clean.png   CER 0.214  1.25s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all mix-jte-p1-scan.jpg    CER 0.248  1.20s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all review-p1-clean.png    CER 0.183  0.32s
+Tesseract 5.5 tessdata + Sauvola, script detection first, then all review-p1-scan.jpg     CER 0.217  0.30s
+[0;93m2026-09-28 06:36:19.657567734 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+RapidOCR PP-OCRv5 mobile                           jpn-p1-clean.png       CER 0.017  4.09s
+RapidOCR PP-OCRv5 mobile                           jpn-p1-scan.jpg        CER 0.172  4.29s
+RapidOCR PP-OCRv5 mobile                           jpn-p2-clean.png       CER 0.017  4.37s
+RapidOCR PP-OCRv5 mobile                           jpn-p2-scan.jpg        CER 0.050  4.25s
+RapidOCR PP-OCRv5 mobile                           tha-p1-clean.png       CER 0.000  3.15s
+RapidOCR PP-OCRv5 mobile                           tha-p1-scan.jpg        CER 0.006  3.24s
+RapidOCR PP-OCRv5 mobile                           tha-p2-clean.png       CER 0.003  3.70s
+RapidOCR PP-OCRv5 mobile                           tha-p2-scan.jpg        CER 0.006  3.15s
+RapidOCR PP-OCRv5 mobile                           eng-p1-clean.png       CER 0.426  4.25s
+RapidOCR PP-OCRv5 mobile                           eng-p1-scan.jpg        CER 0.138  3.58s
+RapidOCR PP-OCRv5 mobile                           eng-p2-clean.png       CER 0.000  4.45s
+RapidOCR PP-OCRv5 mobile                           eng-p2-scan.jpg        CER 0.002  3.78s
+RapidOCR PP-OCRv5 mobile                           mix-je-p1-clean.png    CER 0.017  3.52s
+RapidOCR PP-OCRv5 mobile                           mix-je-p1-scan.jpg     CER 0.026  3.59s
+RapidOCR PP-OCRv5 mobile                           mix-te-p1-clean.png    CER 0.000  3.44s
+RapidOCR PP-OCRv5 mobile                           mix-te-p1-scan.jpg     CER 0.012  3.57s
+RapidOCR PP-OCRv5 mobile                           mix-jte-p1-clean.png   CER 0.238  3.39s
+RapidOCR PP-OCRv5 mobile                           mix-jte-p1-scan.jpg    CER 0.229  3.44s
+RapidOCR PP-OCRv5 mobile                           review-p1-clean.png    CER 0.000  2.14s
+RapidOCR PP-OCRv5 mobile                           review-p1-scan.jpg     CER 0.067  2.10s
+RapidOCR PP-OCRv6 small                            jpn-p1-clean.png       CER 0.004  3.57s
+RapidOCR PP-OCRv6 small                            jpn-p1-scan.jpg        CER 0.004  4.05s
+RapidOCR PP-OCRv6 small                            jpn-p2-clean.png       CER 0.004  3.58s
+RapidOCR PP-OCRv6 small                            jpn-p2-scan.jpg        CER 0.017  3.61s
+RapidOCR PP-OCRv6 small                            tha-p1-clean.png       CER 0.009  3.97s
+RapidOCR PP-OCRv6 small                            tha-p1-scan.jpg        CER 0.006  3.30s
+RapidOCR PP-OCRv6 small                            tha-p2-clean.png       CER 0.205  3.35s
+RapidOCR PP-OCRv6 small                            tha-p2-scan.jpg        CER 0.027  3.38s
+RapidOCR PP-OCRv6 small                            eng-p1-clean.png       CER 0.140  4.00s
+RapidOCR PP-OCRv6 small                            eng-p1-scan.jpg        CER 0.133  3.33s
+RapidOCR PP-OCRv6 small                            eng-p2-clean.png       CER 0.002  3.65s
+RapidOCR PP-OCRv6 small                            eng-p2-scan.jpg        CER 0.000  3.35s
+RapidOCR PP-OCRv6 small                            mix-je-p1-clean.png    CER 0.026  3.29s
+RapidOCR PP-OCRv6 small                            mix-je-p1-scan.jpg     CER 0.026  3.50s
+RapidOCR PP-OCRv6 small                            mix-te-p1-clean.png    CER 0.000  3.58s
+RapidOCR PP-OCRv6 small                            mix-te-p1-scan.jpg     CER 0.004  3.62s
+RapidOCR PP-OCRv6 small                            mix-jte-p1-clean.png   CER 0.262  2.90s
+RapidOCR PP-OCRv6 small                            mix-jte-p1-scan.jpg    CER 0.210  3.08s
+RapidOCR PP-OCRv6 small                            review-p1-clean.png    CER 0.000  2.53s
+RapidOCR PP-OCRv6 small                            review-p1-scan.jpg     CER 0.033  2.54s
+[0;93m2026-09-28 06:44:15.211037687 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+RapidOCR PP-OCRv6 medium                           jpn-p1-clean.png       CER 0.000  42.01s
+RapidOCR PP-OCRv6 medium                           jpn-p1-scan.jpg        CER 0.000  38.58s
+RapidOCR PP-OCRv6 medium                           jpn-p2-clean.png       CER 0.013  46.27s
+RapidOCR PP-OCRv6 medium                           jpn-p2-scan.jpg        CER 0.017  41.13s
+RapidOCR PP-OCRv6 medium                           tha-p1-clean.png       CER 0.000  25.23s
+RapidOCR PP-OCRv6 medium                           tha-p1-scan.jpg        CER 0.000  25.66s
+RapidOCR PP-OCRv6 medium                           tha-p2-clean.png       CER 0.009  25.56s
+RapidOCR PP-OCRv6 medium                           tha-p2-scan.jpg        CER 0.009  24.86s
+RapidOCR PP-OCRv6 medium                           eng-p1-clean.png       CER 0.000  44.59s
+RapidOCR PP-OCRv6 medium                           eng-p1-scan.jpg        CER 0.126  42.02s
+RapidOCR PP-OCRv6 medium                           eng-p2-clean.png       CER 0.000  45.20s
+RapidOCR PP-OCRv6 medium                           eng-p2-scan.jpg        CER 0.000  42.48s
+RapidOCR PP-OCRv6 medium                           mix-je-p1-clean.png    CER 0.017  36.71s
+RapidOCR PP-OCRv6 medium                           mix-je-p1-scan.jpg     CER 0.017  34.52s
+RapidOCR PP-OCRv6 medium                           mix-te-p1-clean.png    CER 0.008  24.93s
+RapidOCR PP-OCRv6 medium                           mix-te-p1-scan.jpg     CER 0.016  24.85s
+RapidOCR PP-OCRv6 medium                           mix-jte-p1-clean.png   CER 0.281  34.11s
+RapidOCR PP-OCRv6 medium                           mix-jte-p1-scan.jpg    CER 0.214  32.85s
+RapidOCR PP-OCRv6 medium                           review-p1-clean.png    CER 0.000  23.62s
+RapidOCR PP-OCRv6 medium                           review-p1-scan.jpg     CER 0.000  24.11s

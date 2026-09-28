@@ -21,7 +21,7 @@ curl -F file=@report.docx http://localhost:8080/v1/convert
 | AI agents | agent skill (CLI) | MCP server at `/mcp` with a `convert_document` tool |
 | Sideways or upside-down scans | | turned upright before OCR |
 
-OCR is Tesseract 5 with language detection per page. It was picked by measuring it against RapidOCR/PaddleOCR on English, Japanese and Thai pages: see [the benchmark](#ocr-benchmark).
+OCR is Tesseract 5 reading every configured language in one pass, so a page that mixes Japanese, Thai and English is read correctly line by line. It was picked by measuring it against RapidOCR/PaddleOCR on English, Japanese, Thai and mixed-script pages: see [the benchmark](#ocr-benchmark).
 
 ## Quickstart
 
@@ -111,7 +111,7 @@ Clients configured with an `mcpServers` JSON block that supports remote HTTP ser
 | --- | --- | --- |
 | `PORT` | `8080` | Port to listen on. Railway and most platforms set it. |
 | `API_KEY` | empty | When set, every endpoint except `/health` requires `Authorization: Bearer <API_KEY>`. Empty means open, and the server logs a warning at startup. |
-| `OCR_LANGS` | `eng,jpn,tha` | OCR languages, comma-separated: `eng`, `jpn`, `tha` (`en`, `ja`, `th` also accepted). Each page is read with the language its script is detected as; a page in no configured script is read with all of them. |
+| `OCR_LANGS` | `eng,jpn,tha` | OCR languages, comma-separated: `eng`, `jpn`, `tha` (`en`, `ja`, `th` also accepted). Every page is read with all of them in one pass, always in the order `jpn`, `tha`, `eng` (the order was measured: `eng` first loses most Thai). |
 | `OCR_ENABLED` | `true` | `false` never OCRs: scanned input fails with `422`, as in plain anydoc. |
 | `OCR_DPI` | `200` | Resolution scanned PDF pages are rendered at for OCR. |
 | `OCR_MAX_PAGES` | `200` | A document needing OCR on more pages than this is refused with `413`. |
@@ -126,22 +126,23 @@ Clients configured with an `mcpServers` JSON block that supports remote HTTP ser
 Measured on `linux/amd64`, 2026-09-28:
 
 - **Image:** 376 MB on disk (94 MB compressed download). Tesseract models for English, Japanese, Thai and script detection are 18 MB of that.
-- **Memory:** 321 MiB RSS idle after startup (OCR models loaded for both conversion slots), 399 to 408 MiB after a round of conversions (`docker stats`, two runs).
-- **Speed:** a born-digital `.docx` converts in about 2 ms; OCR takes about 1 s per page (median, 4 cores of an Intel i5-10500T). A 4-page PDF with 2 scanned pages took 1.5 to 1.7 s.
+- **Memory:** about 305 MiB RSS after a round of conversions (`docker stats`); each conversion slot loads about 90 MiB of OCR models on first use.
+- **Speed:** a born-digital `.docx` converts in about 2 ms; OCR takes about 1.1 s per page (median, 4 cores of an Intel i5-10500T). A 4-page PDF with 2 scanned pages took 1.5 to 1.7 s.
 
 ## OCR benchmark
 
-Character error rate on synthetic 200 dpi pages (degraded "scan" and clean render), two pages per language, and median seconds per page. Full method, per-engine rows and reproduction steps: [docs/ocr-benchmark.md](docs/ocr-benchmark.md).
+Character error rate on synthetic 200 dpi pages: degraded scans, two pages per language plus one page each mixing Japanese+English, Thai+English and all three. Median seconds per page. Full method, clean-render numbers, every engine row and reproduction steps: [docs/ocr-benchmark.md](docs/ocr-benchmark.md).
 
-| Engine | eng scan | jpn scan | tha scan | eng clean | jpn clean | tha clean | s/page |
+| Engine (scans) | eng | jpn | tha | jpn+eng | tha+eng | jpn+tha+eng | s/page |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **anydoc-serve as shipped** (Tesseract 5.5 `tessdata_fast`, Sauvola, per-page script detection) | 0.0% | 4.7% | 0.0% | 0.0% | 2.3% | 0.0% | 1.00 |
-| Tesseract 5.5 `tessdata_fast`, defaults, page language given | 0.0% | 2.8% | 33.4% | 0.0% | 2.8% | 0.0% | 0.36 |
-| Tesseract 5.5 `tessdata_fast`, defaults, `eng+jpn+tha` in one pass | 0.1% | 3.0% | 35.0% | 0.0% | 12.9% | 0.0% | 1.11 |
-| RapidOCR 3.9 PP-OCRv5 mobile | 7.8% | 10.5% | 0.4% | 24.7% | 1.0% | 0.0% | 5.68 |
-| RapidOCR 3.9 PP-OCRv6 small (Thai: PP-OCRv5) | 7.6% | 0.2% | 1.5% | 8.1% | 0.2% | 10.7% | 7.39 |
+| **anydoc-serve as shipped** (Tesseract 5.5 `tessdata_fast`, Sauvola, `jpn+tha+eng`, rotation detection) | 0.3% | 12.3% | 2.6% | 3.1% | 2.8% | 4.3% | 1.12 |
+| Tesseract, told each page's language (oracle) | 0.3% | 11.1% | 2.6% | 3.9% | 2.8% | 4.3% | 0.39 |
+| Tesseract, one language per page from script detection (earlier build) | 0.3% | 11.1% | 2.6% | 26.2% | 43.2% | 45.2% | 1.00 |
+| Tesseract, `eng+jpn+tha` (English first) | 0.2% | 16.4% | 81.2% | 4.4% | 26.8% | 21.4% | 0.51 |
+| RapidOCR 3.9 PP-OCRv6 small (Thai: PP-OCRv5) | 7.6% | 1.1% | 1.7% | 2.6% | 0.4% | 21.0% | 3.44 |
+| RapidOCR 3.9 PP-OCRv6 medium | 7.2% | 0.9% | 0.5% | 1.7% | 1.6% | 21.4% | 34.31 |
 
-RapidOCR reads Japanese better, but was 6 to 7 times slower and dropped whole lines of English. Synthetic pages give exact ground truth but are not your documents: treat these as a comparison between engines, not an accuracy promise.
+RapidOCR reads pure Japanese far better and two-script pages slightly better. It fails the three-script page, drops lines of English, and is 3 times slower than the server as shipped. Synthetic pages give exact ground truth but are not your documents: treat these as a comparison between engines, not an accuracy promise.
 
 ## Deploy on Railway
 

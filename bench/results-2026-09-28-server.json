@@ -1,0 +1,142 @@
+[
+ {
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "text": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。",
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "text": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。",
+  "hyp": "吾電は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾意はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "text": "請求書\n株式会社サンプル商事 御中\n発行日：2026年9月28日　請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）　数量：1　単価：12,000円\n品目：光学文字認識オプション　数量：3　単価：4,500円\n小計：25,500円　消費税（10％）：2,550円　合計金額：28,050円\n振込先：みずほ銀行　東京支店　普通預金　1234567\nご不明な点がございましたら、担当者までお問い合わせください。",
+  "hyp": "ซน\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "text": "請求書\n株式会社サンプル商事 御中\n発行日：2026年9月28日　請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）　数量：1　単価：12,000円\n品目：光学文字認識オプション　数量：3　単価：4,500円\n小計：25,500円　消費税（10％）：2,550円　合計金額：28,050円\n振込先：みずほ銀行　東京支店　普通預金　1234567\nご不明な点がございましたら、担当者までお問い合わせください。",
+  "hyp": "baits\n\nAR\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBn\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\ntae\nン\n\nat : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "text": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกคนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ",
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "text": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกคนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ",
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "text": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา การเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตัดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น",
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "text": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา การเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตัดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น",
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.",
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, ล new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.",
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, ล new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "text": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042   Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan)   1 x $120.00   $120.00\nOptical character recognition add-on   3 x $45.00   $135.00\nSubtotal: $255.00   Tax (10%): $25.50   Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your payment.",
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "text": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042   Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan)   1 x $120.00   $120.00\nOptical character recognition add-on   3 x $45.00   $135.00\nSubtotal: $255.00   Tax (10%): $25.50   Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your payment.",
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "text": "請求書 INVOICE\n請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve 導入支援 担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点は support@example.com までご連絡ください。",
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 : 3\nProject: anydoc-serve 導入支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "text": "請求書 INVOICE\n請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve 導入支援 担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点は support@example.com までご連絡ください。",
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量:3\nProject: anydoc-serve 導入支援 担当・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "text": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทร 02-123-4567",
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. Wnnw la\n\nรายการ: Document conversion API แผนรายเดือน 1,200 nm\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "text": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทร 02-123-4567",
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "text": "多言語マニュアル Multilingual manual\n第1章 はじめに Chapter 1 Introduction\nบทที่ 1 บทนำ\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n価格 Price ราคา: 12,800円 / 3,500 บาท",
+  "hyp": "多\n\nDill!\n\n語マニュアル Multilingual manual\n\n第1章 はじめに Chapter 1 Introduction\n\nบทที่ 1บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800円 / 3,500 inn\n"
+ },
+ {
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "text": "多言語マニュアル Multilingual manual\n第1章 はじめに Chapter 1 Introduction\nบทที่ 1 บทนำ\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n価格 Price ราคา: 12,800円 / 3,500 บาท",
+  "hyp": "多言語マニュアル Multilingual manual\n\n第1章 はじめにChapter 1 Introduction\n\nบทที่ 1 บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800[ปี / 3,500 inn\n"
+ },
+ {
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "text": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31",
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "text": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31",
+  "hyp": "請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n"
+ }
+]

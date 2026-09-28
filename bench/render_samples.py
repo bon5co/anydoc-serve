@@ -18,7 +18,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, features
 
-from texts import PAGES
+from texts import MIXED, PAGES, REVIEW_PAGE
 
 DPI = 200
 PAGE_W, PAGE_H = int(8.27 * DPI), int(11.69 * DPI)
@@ -26,7 +26,7 @@ MARGIN = int(0.9 * DPI)
 FONT_PX = int(12 / 72 * DPI)  # 12 pt
 LINE_GAP = int(FONT_PX * 0.7)
 
-SEEDS = {"jpn": 1, "tha": 2, "eng": 3}
+SEEDS = {"jpn": 1, "tha": 2, "eng": 3, "mix-je": 4, "mix-te": 5, "mix-jte": 6, "review": 7}
 
 FONTS = {
     "jpn": ("/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc", 0),
@@ -69,7 +69,51 @@ def wrap(text: str, lang: str, font: ImageFont.FreeTypeFont, width: int) -> list
     return lines[:-1]
 
 
+def _is_thai(ch: str) -> bool:
+    return "\u0e00" <= ch <= "\u0e7f"
+
+
+def _runs(line: str) -> list[tuple[str, str]]:
+    """Split a mixed line into (font key, text) runs: Thai in the Thai face,
+    everything else (kana, kanji, Latin, digits) in the CJK face."""
+    runs: list[tuple[str, str]] = []
+    for ch in line:
+        key = "tha" if _is_thai(ch) or (runs and runs[-1][0] == "tha" and unicodedata.category(ch) in ("Mn", "Mc")) else "jpn"
+        if runs and runs[-1][0] == key:
+            runs[-1] = (key, runs[-1][1] + ch)
+        else:
+            runs.append((key, ch))
+    return runs
+
+
+def render_mixed(text: str) -> Image.Image:
+    layout = ImageFont.Layout.RAQM if features.check("raqm") else ImageFont.Layout.BASIC
+    fonts = {k: ImageFont.truetype(FONTS[k][0], FONT_PX, index=FONTS[k][1], layout_engine=layout) for k in ("jpn", "tha")}
+    img = Image.new("L", (PAGE_W, PAGE_H), 255)
+    draw = ImageDraw.Draw(img)
+    y = MARGIN
+    for line in text.split("\n"):
+        x = MARGIN
+        for key, run in _runs(line):
+            draw.text((x, y), run, font=fonts[key], fill=0)
+            x += fonts[key].getlength(run)
+        assert x <= PAGE_W - MARGIN, f"line too long: {line}"
+        y += 2 * (FONT_PX + LINE_GAP)  # blank line between lines, like the single-language pages
+    return img
+
+
+def render_review_page() -> Image.Image:
+    font = ImageFont.truetype("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc", 48, index=0)
+    img = Image.new("L", (1400, 300), 255)
+    draw = ImageDraw.Draw(img)
+    draw.text((40, 60), REVIEW_PAGE[0], font=font, fill=0)
+    draw.text((40, 170), REVIEW_PAGE[1], font=font, fill=0)
+    return img
+
+
 def render(text: str, lang: str) -> Image.Image:
+    if lang.startswith("mix"):
+        return render_mixed(text)
     path, index = FONTS[lang]
     layout = ImageFont.Layout.RAQM if features.check("raqm") else ImageFont.Layout.BASIC
     font = ImageFont.truetype(path, FONT_PX, index=index, layout_engine=layout)
@@ -101,7 +145,7 @@ def degrade(img: Image.Image, seed: int) -> Image.Image:
 def main(out: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
     manifest = []
-    for lang, pages in PAGES.items():
+    for lang, pages in {**PAGES, **MIXED}.items():
         for n, text in enumerate(pages, start=1):
             clean = render(text, lang)
             base = f"{lang}-p{n}"
@@ -113,6 +157,12 @@ def main(out: Path) -> None:
                 manifest.append(
                     {"file": f"{base}-{variant}.{ext}", "lang": lang, "page": n, "variant": variant, "text": text}
                 )
+    review = render_review_page()
+    review.save(out / "review-p1-clean.png", optimize=True)
+    degrade(review, seed=SEEDS["review"]).save(out / "review-p1-scan.jpg", quality=60)
+    text = "\n".join(REVIEW_PAGE)
+    for variant, ext in (("clean", "png"), ("scan", "jpg")):
+        manifest.append({"file": f"review-p1-{variant}.{ext}", "lang": "review", "page": 1, "variant": variant, "text": text})
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     print(f"raqm={features.check('raqm')} wrote {len(manifest)} images to {out}")
 

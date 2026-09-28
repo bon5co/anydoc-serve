@@ -10,7 +10,6 @@ from __future__ import annotations
 import base64
 import os
 import sys
-import unicodedata
 from pathlib import Path
 
 import httpx
@@ -18,6 +17,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "bench"))
+from metric import cer  # noqa: E402
 from texts import PAGES  # noqa: E402
 
 pytestmark = pytest.mark.integration
@@ -25,22 +25,6 @@ pytestmark = pytest.mark.integration
 URL = os.environ.get("ANYDOC_SERVE_URL", "http://127.0.0.1:8080")
 KEY = os.environ.get("ANYDOC_SERVE_API_KEY", "")
 FIXTURES = ROOT / "tests" / "fixtures"
-
-
-def norm(s: str) -> str:
-    return "".join(ch for ch in unicodedata.normalize("NFKC", s) if not ch.isspace())
-
-
-def cer(ref: str, hyp: str) -> float:
-    """Character error rate after NFKC and whitespace removal (as in bench/)."""
-    a, b = norm(ref), norm(hyp)
-    prev = list(range(len(b) + 1))
-    for i, ca in enumerate(a, 1):
-        cur = [i]
-        for j, cb in enumerate(b, 1):
-            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
-        prev = cur
-    return prev[-1] / max(1, len(a))
 
 
 @pytest.fixture(scope="module")
@@ -117,6 +101,48 @@ def test_scanned_pdf(http):
 def test_rotated_scan_is_turned_upright(http):
     body = convert(http, "rotated.jpg")
     assert "Four score and seven years ago" in body["markdown"]
+
+
+NOTO_SANS_JP = (
+    "https://github.com/notofonts/noto-cjk/raw/Sans2.004/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
+    "68a3fc98800b2a27b371f2fb79991daf3633bd89309d4ffaa6946fd587f375b5",
+)
+
+
+def noto_sans_jp() -> Path:
+    """Noto Sans CJK JP, downloaded once (16 MB) and checked against its sha256."""
+    import hashlib
+
+    url, sha = NOTO_SANS_JP
+    path = Path(os.environ.get("XDG_CACHE_HOME", Path.home() / ".cache")) / "anydoc-serve-tests" / Path(url).name
+    if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != sha:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        data = httpx.get(url, follow_redirects=True, timeout=120).raise_for_status().content
+        assert hashlib.sha256(data).hexdigest() == sha, "font download does not match its pinned sha256"
+        path.write_bytes(data)
+    return path
+
+
+def test_mixed_japanese_english_page(http):
+    """The page from the 2026-09-28 launch review: script detection called it
+    Latin, and the Japanese line came back as `BRB BS 2026-0928 Aste Sq 12,800`."""
+    import io
+
+    from PIL import Image, ImageDraw, ImageFont
+
+    font = ImageFont.truetype(str(noto_sans_jp()), 48)
+    image = Image.new("RGB", (1400, 300), "white")
+    draw = ImageDraw.Draw(image)
+    draw.text((40, 60), "請求書番号 2026-0928 合計金額 12,800円", font=font, fill="black")
+    draw.text((40, 170), "Invoice total due by October 31", font=font, fill="black")
+    buf = io.BytesIO()
+    image.save(buf, "PNG")
+    r = http.post("/v1/convert", files={"file": ("invoice.png", buf.getvalue())})
+    assert r.status_code == 200, r.text
+    md = r.json()["markdown"]
+    assert "請求書番号" in md, md
+    assert "12,800円" in md, md
+    assert "Invoice total due by October 31" in md, md
 
 
 def test_ocr_off_refuses_scans(http):

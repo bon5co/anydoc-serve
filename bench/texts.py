@@ -55,3 +55,40 @@ PAGES: dict[str, list[str]] = {
         "Payment is due within 30 days. Please quote the invoice number with your payment.",
     ],
 }
+
+# Mixed-script pages: the normal case for invoices, forms and slides.
+# Written for this benchmark (MIT). "mix-je" = Japanese + English,
+# "mix-te" = Thai + English, "mix-jte" = Japanese + Thai + English.
+MIXED: dict[str, list[str]] = {
+    "mix-je": [
+        "請求書 INVOICE\n"
+        "請求書番号 2026-0928 合計金額 12,800円\n"
+        "Invoice total due by October 31\n"
+        "品目：Cloud OCR API（Standard plan）数量：3\n"
+        "Project: anydoc-serve 導入支援 担当：Tanaka\n"
+        "Please remit to Example Bank, account 1234567.\n"
+        "ご不明な点は support@example.com までご連絡ください。",
+    ],
+    "mix-te": [
+        "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n"
+        "ลูกค้า: Example Co., Ltd. สำนักงานใหญ่\n"
+        "รายการ: Document conversion API แผนรายเดือน 1,200 บาท\n"
+        "Total amount due: 1,284 THB (VAT 7%)\n"
+        "กรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\n"
+        "Contact: support@example.com โทร 02-123-4567",
+    ],
+    "mix-jte": [
+        "多言語マニュアル Multilingual manual\n"
+        "第1章 はじめに Chapter 1 Introduction\n"
+        "บทที่ 1 บทนำ\n"
+        "本製品は文書をMarkdownに変換します。\n"
+        "This product converts documents to Markdown.\n"
+        "ผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n"
+        "価格 Price ราคา: 12,800円 / 3,500 บาท",
+    ],
+}
+
+# The page from the 2026-09-28 launch review: 1400x300, Noto Sans CJK 48 px,
+# two lines, white background. Script detection called it Latin and the
+# Japanese line came back as garbage.
+REVIEW_PAGE = ["請求書番号 2026-0928 合計金額 12,800円", "Invoice total due by October 31"]

@@ -1,15 +1,21 @@
 """Local CPU OCR: Tesseract 5 through tesserocr, models held in memory.
 
 Engine choice and settings come from docs/ocr-benchmark.md, measured on
-English, Japanese and Thai pages. In short:
+English, Japanese, Thai and mixed-script pages. In short:
 
-* Sauvola (local) binarization, not Tesseract's default global Otsu: on a
-  scan with uneven lighting Otsu dropped half of every Thai line.
-* One language pack per page, chosen by Tesseract's own script detection
-  (OSD), instead of one pass with every configured language loaded: the
-  combined `eng+jpn+tha` pass was slower and less accurate.
-* OSD also reports page orientation, so upside-down and sideways scans are
-  turned upright before recognition.
+* `tessdata_fast` 4.1.0 models with Sauvola (local) binarization, not
+  Tesseract's default global Otsu: on a scan with uneven lighting Otsu dropped
+  half of every Thai line.
+* Every configured language in one pass, in the fixed order jpn, tha, eng.
+  Real pages mix scripts (a Japanese invoice with English lines, Thai with
+  English terms). Picking one language per page from Tesseract's script
+  detection turned the Japanese line of a mixed page into garbage, and the
+  order is load-bearing: with eng ahead of tha, Thai came back 79 to 83%
+  wrong.
+* Script detection (OSD) is still run, for page orientation only: sideways
+  and upside-down scans are turned upright before recognition.
+* Tesseract writes Thai SARA AM decomposed (NIKHAHIT + SARA AA); it is
+  recomposed so the text matches what people type and search for.
 
 The tesserocr API objects are not thread-safe, so the engine keeps a pool of
 fully loaded workers, one per concurrent conversion.
@@ -31,18 +37,10 @@ from PIL import Image
 LANGUAGES = {"eng": "English", "jpn": "Japanese", "tha": "Thai"}
 ALIASES = {"en": "eng", "english": "eng", "ja": "jpn", "jp": "jpn", "japanese": "jpn", "th": "tha", "thai": "tha"}
 
-# Tesseract OSD script names -> the language pack that reads them
-SCRIPT_LANG = {
-    "Latin": "eng",
-    "Japanese": "jpn",
-    "Han": "jpn",
-    "Hiragana": "jpn",
-    "Katakana": "jpn",
-    "Thai": "tha",
-}
+# Order languages are loaded in: measured, see module docstring.
+LANG_ORDER = ["jpn", "tha", "eng"]
 
 MIN_ORIENT_CONF = 2.0  # below this OSD's orientation guess is noise; leave the page as is
-MIN_SCRIPT_CONF = 0.5  # measured confidences on correct detections were 0.6 to 656
 
 # Tesseract needs the scan resolution. Without it (a PIL image carries none
 # after any conversion) it guessed wrong on a 200 dpi Japanese scan and lost
@@ -67,7 +65,6 @@ class OcrEngine(Protocol):
 class OcrResult:
     text: str
     lang: str
-    script: str | None = None
     rotated: int = 0
     confidence: float | None = None
 
@@ -76,8 +73,7 @@ class OcrResult:
 
 
 def normalize_langs(langs: list[str]) -> list[str]:
-    """Validate OCR_LANGS, accepting ISO 639-1 aliases. Order is kept; the
-    first language is the fallback when script detection has no answer."""
+    """Validate OCR_LANGS, accepting ISO 639-1 aliases and dropping repeats."""
     out: list[str] = []
     for raw in langs:
         code = ALIASES.get(raw.strip().lower(), raw.strip().lower())
@@ -90,17 +86,10 @@ def normalize_langs(langs: list[str]) -> list[str]:
     return out
 
 
-def select_lang(script: str | None, confidence: float, langs: list[str]) -> str:
-    """The Tesseract language string for a page whose script OSD detected.
-
-    A detected script that maps to a configured language wins. Anything else
-    (no detection, low confidence, a script nobody configured) falls back to
-    every configured language in one pass, which is slower but reads all of
-    them."""
-    lang = SCRIPT_LANG.get(script or "")
-    if lang in langs and confidence >= MIN_SCRIPT_CONF:
-        return lang
-    return "+".join(langs)
+def combined_lang(langs: list[str]) -> str:
+    """The one Tesseract language string every page is read with: all
+    configured languages, in LANG_ORDER."""
+    return "+".join(sorted(langs, key=LANG_ORDER.index))
 
 
 def _is_cjk(ch: str) -> bool:
@@ -135,12 +124,16 @@ def _escape_marker(m: re.Match[str]) -> str:
     return m.group(1) + "\\" + marker
 
 
+def _thai_sara_am(text: str) -> str:
+    return text.replace("\u0e4d\u0e32", "\u0e33")
+
+
 def text_to_markdown(text: str) -> str:
     """Tesseract text -> Markdown paragraphs. Lines keep their breaks (joining
     them would need word-boundary rules per language); a line that would read
     as Markdown syntax (heading, list, quote) gets its marker escaped."""
     paragraphs: list[str] = []
-    for block in re.split(r"\n\s*\n", text.strip()):
+    for block in re.split(r"\n\s*\n", _thai_sara_am(text).strip()):
         lines = []
         for line in block.splitlines():
             line = _drop_cjk_spaces(line.strip())
@@ -159,15 +152,15 @@ class _Worker:
 
         self._tesserocr = tesserocr
         self.osd = self._api(tessdata, "osd", tesserocr.PSM.OSD_ONLY)
-        codes = list(langs) + (["+".join(langs)] if len(langs) > 1 else [])
-        self.apis = {code: self._api(tessdata, code, tesserocr.PSM.AUTO) for code in codes}
+        self.lang = combined_lang(langs)
+        self.api = self._api(tessdata, self.lang, tesserocr.PSM.AUTO)
 
     def _api(self, tessdata: str, lang: str, psm: int):  # -> tesserocr.PyTessBaseAPI
         api = self._tesserocr.PyTessBaseAPI(path=tessdata, lang=lang, psm=psm)
         api.SetVariable("thresholding_method", "2")  # Sauvola, see module docstring
         return api
 
-    def recognize(self, image: Image.Image, langs: list[str], dpi: float | None) -> OcrResult:
+    def recognize(self, image: Image.Image, dpi: float | None) -> OcrResult:
         image = image.convert("L")
         resolution = int(dpi) if dpi and DPI_RANGE[0] <= dpi <= DPI_RANGE[1] else DEFAULT_DPI
         self.osd.SetImage(image)
@@ -178,13 +171,11 @@ class _Worker:
             rotated = int(found["orient_deg"])
             # OSD reports the page's rotation clockwise; PIL rotates counterclockwise
             image = image.rotate(rotated, expand=True)
-        script = found.get("script_name")
-        lang = select_lang(script, float(found.get("script_conf", 0.0)), langs)
-        api = self.apis[lang]
+        api = self.api
         api.SetImage(image)
         api.SetSourceResolution(resolution)
         text = api.GetUTF8Text()
-        return OcrResult(text=text, lang=lang, script=script, rotated=rotated, confidence=float(api.MeanTextConf()))
+        return OcrResult(text=text, lang=self.lang, rotated=rotated, confidence=float(api.MeanTextConf()))
 
 
 class TesseractEngine:
@@ -216,7 +207,7 @@ class TesseractEngine:
         """OCR one page. `dpi` is the scan resolution when known (PDF render
         resolution, or the image's own dpi tag)."""
         with self._worker() as worker:
-            return worker.recognize(image, self.langs, dpi)
+            return worker.recognize(image, dpi)
 
     def warm_up(self) -> None:
         blank = Image.new("L", (64, 64), 255)
