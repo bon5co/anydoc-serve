@@ -1,0 +1,202 @@
+[
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.0,
+  "seconds": 42.01108738500625,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.0,
+  "seconds": 38.57543969899416,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.012552301255230125,
+  "seconds": 46.268959725042805,
+  "hyp": "請求書\n株式会社サンプル商事御中\n発行日：2026年9月28日 請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）\n数量：1単価：12,000円\n品目：光学文字認識オプション数量：3単価：4,500円\n小計：25,500円消費稅（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行 東京支店 普通預金 1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.016736401673640166,
+  "seconds": 41.12688678386621,
+  "hyp": "請求書\n株式会社サンプル商事御中\n発行日：2026年9月28日請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）数量：1単価：12,000円\n品目：光学文字認識オプション数量：3単価：4,500円\n小計：25,500円消費税（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行東京支店普通預金1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.0,
+  "seconds": 25.228678052080795,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.0,
+  "seconds": 25.664242008933797,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.008902077151335312,
+  "seconds": 25.557835028972477,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตั\nดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเ\nพื่อช่วให้ค้อมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.008902077151335312,
+  "seconds": 24.856114028953016,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคดเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตั\nตคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 44.591668711043894,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.12589928057553956,
+  "seconds": 42.0168991999235,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\n eat  ha\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0,
+  "seconds": 45.19702141289599,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x $120.00 $120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0,
+  "seconds": 42.475102277006954,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x $120.00 $120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.017467248908296942,
+  "seconds": 36.71283417590894,
+  "hyp": "請求書 INVOICE\n請求書番号2026-0928合計金額12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve 導入支援担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点はsupport@example.com までご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.017467248908296942,
+  "seconds": 34.52402375196107,
+  "hyp": "請求書INVOICE\n請求書番号2026-0928 合計金額12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve 導入支援 担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点はsupport@example.com までご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.008,
+  "seconds": 24.927208164008334,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nซ\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทs 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.016,
+  "seconds": 24.846724234055728,
+  "hyp": "ใบแจ้งหนี้Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผuรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โns 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.28095238095238095,
+  "seconds": 34.10934469010681,
+  "hyp": "多言語マニュアル Multilingual manual\n第1章はじめに Chapter 1 Introduction\nunn1 unn\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\n価格Pricen:12,800円/3,500nn"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.21428571428571427,
+  "seconds": 32.84812287497334,
+  "hyp": "多言語マニュアル Multilingual manual\n第1章はじめに Chapter 1 Introduction\nun1 un\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nwanulananau Markdown\n価格 Price n: 12,800円/3,500 nn"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 23.624626783886924,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 medium",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 24.111712523037568,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31"
+ }
+]

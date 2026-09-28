@@ -1,0 +1,3202 @@
+[
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 0.4661094690673053,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも簿暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 0.37098186183720827,
+  "hyp": "吾募は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも藻暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾墓はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段懲しいとも思わなかった。ただ彼の堂に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.10460251046025104,
+  "seconds": 0.39162220200523734,
+  "hyp": "請求書\n\n中\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n品目 : 文書変換サービス (月額プラン) 数量:1 単価 :12.000円\n\n品目 : 光学文字認識オプション 数量 :3 単価 : 4.500円\n\n小計 : 25,500円 消費税 (10%) :2,550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.11715481171548117,
+  "seconds": 0.38238222198560834,
+  "hyp": "蛋\n\n請求書\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\n品目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\n小計 : 25,500円 消費税 (10%) :2.550円 合計金額 : 28.050円\n\n振込先: みずはほ銀行 東京支店 普通預金 1234567\n\nご不明な点おがございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.32182782399468124,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.3397724542301148,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.3288551499135792,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.27596439169139464,
+  "seconds": 0.5008121188730001,
+  "hyp": "ด 0       ช่ 9 6 6    ง?   5      4     <   ซ์    <\n\nภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\n\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\n๑                   = 4 ๑7     @% ง    2 ๓= งง ๐ซ้\n\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\n\nส !  ม   =-   เล        ได้  ย = จั้\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทย ดถูกตองยงขน\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.34176320885308087,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 0.33793864608742297,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\nona great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.2931942369323224,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.2798944569658488,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.03056768558951965,
+  "seconds": 0.3800391359254718,
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12,800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 :3\nProject: anydoc-serve 導入支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.034934497816593885,
+  "seconds": 0.3674090758431703,
+  "hyp": "請求書 INVOICE\n\n求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量:3\nProject: anydoc-serve 導入支援 担当 ・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.028,
+  "seconds": 0.4035266628488898,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 inn\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 1.0,
+  "seconds": 0.7136953989975154,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.06190476190476191,
+  "seconds": 0.4984732379671186,
+  "hyp": "多言語マニュアル Multilingual manual\n\n第1章 はじめに Chapter 1 Introduction\n\nบทที่ 1 บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\n\nューンー 6a\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800円 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 1.0,
+  "seconds": 0.7346893949434161,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.08299685991369188,
+  "hyp": "請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.08539009396918118,
+  "hyp": "請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.008620689655172414,
+  "seconds": 0.6089623370207846,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 獲 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせ ら れ て ス ー と 持 ち 上 げ ら れ た 時 何 だ か フ ワ フ ヮ ワ し た 感 じ が あ っ た ば か り で あ る 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 0.881493530003354,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 獲 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせられてスーと持ち上げられた時何だかフヮフワした感じがぁったぱかりでぁる。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.3807531380753138,
+  "seconds": 0.5571810400579125,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 : TNV-②0②⑥-00④②\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④.⑤00 円\n\n小 計 : ②⑤.⑤00 円 消 費 税 (①0%0) : ②.⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.3598326359832636,
+  "seconds": 0.5403378291521221,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 : INV-②0②⑥-00④②\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④,⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (①0%) : ②,⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.31858255807310343,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.3155611399561167,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.3171322890557349,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 1.0623145400593472,
+  "seconds": 0.4745505419559777,
+  "hyp": "ด 0 ช่ 9 6 6 ง? 5 4 < ซ์ <\n\nภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\n\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\n๑ = 4 ๑ 7 @% ง 2 ๓ = ง ง ๐ ซ้\n\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\n\nส ! ม =- เล ได ้ ย = จั้\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ด ถู ก ต อ ง ย ง ขน\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.4673252368811518,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.4388228110037744,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 0.3903948941733688,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1 x$120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0,
+  "seconds": 0.36628469498828053,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1 x $120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.1091703056768559,
+  "seconds": 0.5095130049157888,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫.⑧00 円\n\nInvoice total due by October 31\n\n品 目 Cloud OCR API (Standard plan) 数 量 : 3\n\nProject: anydoc-serve 導 入 支 援 担 当 Tanaka\n\nPlease remit to Example Bank, account ⑫③④⑤⑥⑦.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.08296943231441048,
+  "seconds": 0.5334224719554186,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n\n品 目 Cloud OCR API (Standard plan) 数 量 : ③\nProject: anydoc-serve 導 入 支 援 担 当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 0.4946057591587305,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 1.0,
+  "seconds": 0.7569288869854063,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.2619047619047619,
+  "seconds": 0.7011788240633905,
+  "hyp": "多 言 語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価 格 ปิ ท 6 ๑ ร า ค า : 12,800[ ป ี / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.9619047619047619,
+  "seconds": 1.0214882511645555,
+  "hyp": "・\n\nュ ブ ア ル\nに\n\nじ め\n\n多 言 語 マ\n第 ① 章 は じ\n本糊輩‡栞賽\n\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.16666666666666666,
+  "seconds": 0.12333421013318002,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 12,800\n\nInvoice total due by October ③①\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.1272531170397997,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October ③①\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 1.461411461001262,
+  "hyp": "吾 奄 は 猫 で ある 。 名 前 は まだ 無い 。 ど こ で 生れ た か と ん と 見 当 が つか ぬ 。 何 で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾輩 は ここ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 獲 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 欠 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が な あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 1.311385618057102,
+  "hyp": "吾 奉 は 猫 で ある 。 名 前 は まだ 無い 。 どこ で 生れ た か と ん と 見 当 が つか ぬ 。 何 で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾 右 は こ こ で 始め て\n人 間 と いう も の を 見 た 。 し か も る あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 衝 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 恐 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.18828451882845187,
+  "seconds": 1.3536763230804354,
+  "hyp": "請求 書\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 ” 請求 番号 ・ INV-2026-0042\n\n下記 の 通り ご 請求 由 し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n品目 : 文書 変換 サー ビス (月 額 プ ラン ) 数量:1 単価 ・12.000 円\n品目 ・ 光学 文字 認識 オプ ショ ン 数量:3 単価 ・4,500 円\n\n小計 : 25,500 円 ” 消費 税 (10%) : 2,.550 円 合計 金額 : 28,050 円\n振込 先 : みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.19246861924686193,
+  "seconds": 1.2323196888901293,
+  "hyp": "請求 書\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期限 は 2026 年 10 月 31 日 で す 。\n\n品目 ・ 文 書 変換 サー ビス (月 額 プ ラン ) 。 数 量 : 1 単価 : 12.000 円\n\n品目 : 光学 文字 認識 オプ ショ ン 数 量 : 3 単価 :4.500 円\n\n小計 : 25,500 円 消費 税 (10%) : 2.550 円 合計 金額 : 28,050 円\n\n振込 先 : みず ば 銀行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.5712424810044467,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.5706279089208692,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.5812178049236536,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.27002967359050445,
+  "seconds": 0.9895251430571079,
+  "hyp": "สตู 4       สม    ม 4    1ร   4      4     \"   4    <\n\nภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\n\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nง                   = ง47 ๑7     @% ง    4 ๑ ๓ ๐อร้\n\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\n\n-  ม   =   เล        ได้  ย ๑ จั้\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทย ดถูกตองยงขน\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.2770114608574659,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.1440185408573598,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 1.0667635761201382,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 0.9195959288626909,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.056768558951965066,
+  "seconds": 1.4495018681045622,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 Cloud OCR API (Standard plan) 数 量 : 3\n\nProject: anydoc-serve 導入 支援 HY © Tanaka\n\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 1.2660185059066862,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 ・3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.044,
+  "seconds": 1.1452627719845623,
+  "hyp": "ใบแจ้งหนี้ โทขอ16@ No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 1.0,
+  "seconds": 0.7888603259343654,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.21904761904761905,
+  "seconds": 1.3660505379084498,
+  "hyp": "多 言 語 マ ニュ アル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800[ ป ี / 3,500 mw\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.9285714285714286,
+  "seconds": 0.9803604709450155,
+  "hyp": "ュ ว\n\nュ ア ル\nに\n\nじ め\n\n多 言 語 マ\nWIE SL\n本 製品 は 文書\n\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.30251948814839125,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.2358919600956142,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.2629310344827586,
+  "seconds": 1.287656316999346,
+  "hyp": "๒ ธ ซ ๒ ว วัช 522. CAHNLERBY, COCENEMPLALAYBoODMA, fC DIV\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾輩 は ここ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 狂 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 基 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 往 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.09913793103448276,
+  "seconds": 1.2442031248938292,
+  "hyp": "GML CHS, Bails KEM, どこ で 生れ た か と ん と 見 当 が つか ぬ 。 何 で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾 墓 は ここ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 恐 し いと も 思わ な か っ た 。 た だ 彼 の 堂 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.20502092050209206,
+  "seconds": 0.8910274000372738,
+  "hyp": "請求 書\n\nซ แ แ\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n\nmA: 文書 変換 サー ビス (月 額 プ ラン ) 数量 :1 単価 :12.000 円\n\n品目 : 光学 文字 認識 オプ ショ ン 数量 :3 単価 : 4.500 円\n\n小計 : 25,500 円 消費 税 (10%) :2,550 円 合計 金額 : 28.050 円\n\n振込 先 : みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.200836820083682,
+  "seconds": 0.8138079450000077,
+  "hyp": "ซ่\n\n請求 書\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n\n品目 : 文書 変換 サー ビス (月 額 プラ ン ) 数量 :1 単価 : 12.000 円\n\n品目 : 光学 文字 認識 オプ ショ ン 数量 : 3 単価 :4.500 円\n\n小計 : 25,500 円 消費 税 (10%) :2.550 円 合計 金額 : 28.050 円\n\n振込 先 : みず は ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 お が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.5239993219729513,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.43914292100816965,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.6578083909116685,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 1.056379821958457,
+  "seconds": 0.9050064550247043,
+  "hyp": "ale Cane 6 ง? ュ ak a ュ ュ\n\nภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\n\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\n6 ow a の ay aoe 2 ๓ = ง ง ๐ ซ้\n\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\n\na) ม っ cue ได ้ ย = จั้\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ด ถู ก ต อ ง ย ง ขน\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.38846157398074865,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.39973292080685496,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.5976517910603434,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.4790429000277072,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 0.4613549089990556,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 : 3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.043668122270742356,
+  "seconds": 0.48334645200520754,
+  "hyp": "請求 書 INVOICE\n\n求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 :3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.272,
+  "seconds": 0.4887795958202332,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 inn\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 1.0,
+  "seconds": 0.8076607140246779,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.21904761904761905,
+  "seconds": 0.5063631669618189,
+  "hyp": "多 言語 マニ ュ ア ル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\n\nュー ンー 6a\nผล ิ ต ภั ณ ฑ ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ราคา: 12,800F / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 1.0,
+  "seconds": 0.7838315379340202,
+  "hyp": ""
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.03333333333333333,
+  "seconds": 0.11524772690609097,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast, eng+jpn+tha",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.03333333333333333,
+  "seconds": 0.11841524112969637,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 0.4839623610023409,
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 0.4505027928389609,
+  "hyp": "吾重は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。 何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾墓はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。 この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.09623430962343096,
+  "seconds": 0.41934848413802683,
+  "hyp": "講\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.19665271966527198,
+  "seconds": 0.4385914660524577,
+  "hyp": "MM\n\n求書\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBh\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\nYeedN\nン\n\n計 : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.37493246514350176,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.37326607783325016,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.3707602680660784,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.3758025849238038,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.39237199909985065,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 0.38699640496633947,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\nona great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.343338075093925,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.3365363779012114,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.034934497816593885,
+  "seconds": 0.3688311600126326,
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 :3\nProject: anydoc-serve 導入支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 0.39826985797844827,
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 : 3\nProject: anydoc-serve 導入支援 担当・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.016,
+  "seconds": 0.43387539801187813,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.028,
+  "seconds": 0.4249379138927907,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.06190476190476191,
+  "seconds": 0.45943786203861237,
+  "hyp": "多\n\nDill!\n\n語マニュアル Multilingual manual\n\n第1章 はじめに Chapter 1 Introduction\n\nบทที่ 1บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800円 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.04285714285714286,
+  "seconds": 0.48060503508895636,
+  "hyp": "多言語マニュアル Multilingual manual\n\n第1章 はじめにChapter 1 Introduction\n\nบทที่ 1 บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800[ปี / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 0.08565667178481817,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.09061503992415965,
+  "hyp": "請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.008620689655172414,
+  "seconds": 0.6583883878774941,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 撃 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせ ら れ て ス ー と 持 ち 上 げ ら れ た 時 何 だ か フ ワ フ ヮ ワ し た 感 じ が あ っ た ば か り で あ る 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 0.9810668588615954,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 獲 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせられてスーと持ち上げられた時何だかフヮフヮした感じがあったばかりでぁる。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.3807531380753138,
+  "seconds": 0.5910625529941171,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 : TNV-②0②⑥-00④②\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④.⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (①000) : ②,⑤⑤0 円 合 計 金 額 : ②⑧.0⑤0 円\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.3598326359832636,
+  "seconds": 0.5990521458443254,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 : INV-②0②⑥-00④②\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④,⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (①0%) : ②,⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.3612249249126762,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.375008299946785,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.3756338469684124,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.3851257760543376,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.5244352798908949,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.506023121997714,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 0.4495495348237455,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1 x$120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.4321064380928874,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x$120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.07860262008733625,
+  "seconds": 0.6067580559756607,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫.⑧00 円\n\nInvoice total due by October 31\n\n品 目 Cloud OCR API (Standard plan) 数 量 : 3\n\nProject: anydoc-serve 導 入 支 援 担 当 Tanaka\n\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.07423580786026202,
+  "seconds": 0.5882030739448965,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n\n品 目 Cloud OCR API (Standard plan) 数 量 3\nProject: anydoc-serve 導 入 支 援 担 当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 0.5500821550376713,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.28,
+  "seconds": 0.5457427129149437,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example 6 อ ., Ltd. สํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.2904761904761905,
+  "seconds": 0.856771226041019,
+  "hyp": "多 言 語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\n\nュ ュ ッ ー マ ぎ\nผล ิ ต ภั ณ ฑ์ น ี ่ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価 格 ปิ ท 6 ๑ ร า ค า : 12,800[ ป ี / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.26666666666666666,
+  "seconds": 0.7388974919449538,
+  "hyp": "い\n\n多 言 語 マ ニ ュ ア ル Multilingual manual\n\nFI\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n[ ั ศ์ Price ร า ค า : ⑫,⑧00 円 / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.13601998798549175,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\nInvoice total due by October ③①\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.18333333333333332,
+  "seconds": 0.1549333871807903,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.02586206896551724,
+  "seconds": 1.6253493239637464,
+  "hyp": "吾輩 は 猫 で ある 。 名 前 は まだ 無い 。 ど こ で 生れ た か と ん と 見 当 が つか ぬ 。 何 で る も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾輩 は ここ で 始め て\n人 間 と いう る も の を 見 た 。 し か る あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 角 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 欠 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が な あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 1.4390529580414295,
+  "hyp": "吾 奉 は 猫 で ある 。 名 前 は まだ 無い 。 どこ で 生れ た か と ん と 見 当 が つか ぬ 。 何 で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾 右 は こ こ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 矢 悪 な 種族\nで あっ た そう 。 この 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 恐 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.16736401673640167,
+  "seconds": 1.3779342288617045,
+  "hyp": "請求 書\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期限 は 2026 年 10 月 31 日 で す 。\n品目 : 文書 変換 サー ビス (月 額 プ ラン ) 。 数量:1 単価 ・12.000 円\n品目 : 光学 文字 認識 オプ ショ ン 数 量 :3 単価 :4,500 円\n小計 : 25,500 円 消費 税 (10%) : 2,550 円 合計 金額 : 28,050 円\n振込 先 :・ みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.18410041841004185,
+  "seconds": 1.3345327349379659,
+  "hyp": "請求 書\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 由 し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n\n品目 ・ 文 書 変換 サー ビス (月 額 プ ラン ) 。 数 量 : 1 単価 : 12.000 円\n\n品目 : 光学 文字 認識 オプ ショ ン 数 量 :3 単価 :4,500 円\n\n小計 : 25,500 円 消費 税 (10%) : 2.550 円 合計 金額 : 28,050 円\n\n振込 先 : みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.6332443840801716,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.6311329749878496,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.6403972969856113,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.6340048590209335,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.2477740908507258,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.1670951340347528,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 1.0431420810054988,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 0.9539756828453392,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.034934497816593885,
+  "seconds": 1.314461275935173,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番 号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n\n品目 Cloud OCR API (Standard plan) 数 量 : 3\n\nProject: anydoc-serve 導入 支援 担当 ・ Tanaka\n\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 1.2506838899571449,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 ・3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.016,
+  "seconds": 1.0720254790503532,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.024,
+  "seconds": 1.0343482089228928,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example 6อ., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.24761904761904763,
+  "seconds": 1.4879339321050793,
+  "hyp": "多 言 語 マ ニュ アル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\n\na ood\nผล ิ ต ภั ณ ฑ์ น ี ่ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800[ ป ี / 3,500 mw\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.21904761904761905,
+  "seconds": 1.515021335100755,
+  "hyp": "น\n\n多 言 語 マ ニュ アル Multilingual manual\n\nซ แ\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price sian: 12.800 円 / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.2471233659889549,
+  "hyp": "請求 書 番 号 2026-0928 合計 金額 12,800 円\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_best + Sauvola, page language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.36367063596844673,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 1.521733766188845,
+  "hyp": "吾 募 は 衝 で ある 。 名 前 は まだ 無い 。 ど こ で 生れ た か と ん と 見 当 が つか め ぬ 。 何 で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾 暮 は ここ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 狂 悪 な 種族\nで あっ た そう だ 。 こ の 書生 と いう の は 時 々 我々 を 捕え て 基 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 往 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 0.9082661571446806,
+  "hyp": "吾 重 は 猫 で ある 。 名 前 は まだ 無い 。 ど こ で 生れ た か と ん と 見 当 が つか め ぬ 。 何で も 薄暗い\nじめじめ し た 所 で ニャ ー ニ ャ ー 泣 いて いた 事 だ け は 記憶 し て いる 。 吾 墓 は ここ で 始め て\n人 間 と いう も の を 見 た 。 し か も あと で 聞く と それ は 書生 と いう 人 間 中 で 一 番 狂 悪 な 種族\nで あっ た そう だ 。 この 書生 と いう の は 時 々 我々 を 捕え て 煮 て 食う と いう 話 で ある 。 し か\nし その 当時 は 何と いう 考 も な か っ た か ら 別 段 丸 し いと も 思わ な か っ た 。 た だ 彼 の 掌 に 載\nせら れ て スー と 持ち 上 げ ら れ た 時 何だ か フワ フワ し た 感じ が あっ た ば か り で ある 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.1799163179916318,
+  "seconds": 0.9041397881228477,
+  "hyp": "EH\n\n株 式 会 社 サン プル 商事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n品目 : 文書 変換 サー ビス (月 額 プ ラン ) 数量 :1 単価 :12.000 円\n品目 : 光学 文字 認識 オプ ショ ン 数量 :3 単価 :4,500 円\n\n小計 : 25,500 円 消費 税 (10%) : 2,550 円 合計 金額 : 28,050 円\n振込 先 : みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.301255230125523,
+  "seconds": 0.7932687990833074,
+  "hyp": "baits\n\nAR\n\n株 式 会 社 サ ンプ ル 商 事 御中\n\n発行 日 : 2026 年 9 月 28 日 請求 番号 : INV-2026-0042\n\n下記 の 通り ご 請求 申し 上 げ ま す 。 お 支払 い 期 限 は 2026 年 10 月 31 日 で す 。\n\n目 : 文書 変換 サー ビス (月 額 プラ ン ) 数量 :1 単価 : 12.000 円\n\nBn\n\n目 : 光学 文字 認識 オプ ショ ン 数量 : 3 単価 :4.500 円\n\nEoi\n\ntae\nン\n\nat : 25,500 円 消費 税 (10%) : 2.550 円 合計 金額 : 28.050 円\n\n振込 先 : みず ほ 銀 行 東京 支店 普通 預金 1234567\n\nご 不明 な 点 が ご ざい まし た ら 、 担 当 者 まで お 問い 合わ せく だ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7881619937694704,
+  "seconds": 0.4928343479987234,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท Gee ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7881619937694704,
+  "seconds": 0.5415039008948952,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท Gor ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.49687209189869463,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.6177464770153165,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.40067132911644876,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 0.42472250992432237,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.6098931459710002,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.5097829732112586,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.043668122270742356,
+  "seconds": 0.4801014729309827,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 : 3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.043668122270742356,
+  "seconds": 0.5285377129912376,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 : 3\nProject: anydoc-serve 導入 支援 担当 ・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 0.4913978870026767,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 0.4769648718647659,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. สํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.22857142857142856,
+  "seconds": 0.49625866604037583,
+  "hyp": "多\n\nDill!\n\n語 マ ニュ アル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800 円 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.21428571428571427,
+  "seconds": 0.5411352089140564,
+  "hyp": "多 言語 マニ ュ ア ル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800[ ป ี / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.11769636813551188,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, eng+jpn+tha",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.03333333333333333,
+  "seconds": 0.12492867396213114,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 1.5132224999833852,
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 0.9156886141281575,
+  "hyp": "吾重は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。 何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾墓はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。 この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.09623430962343096,
+  "seconds": 0.9501231960020959,
+  "hyp": "ซน\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.22594142259414227,
+  "seconds": 0.8115550840739161,
+  "hyp": "baits\n\nAR\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBn\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\ntae\nン\n\nat : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.45406191796064377,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.523883786983788,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.46393679711036384,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.585733980871737,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 0.5222495729103684,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, ล new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 0.47310718707740307,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, ล new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.6861910650040954,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.6265870491042733,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 0.49439838412217796,
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 : 3\nProject: anydoc-serve 導入支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.039301310043668124,
+  "seconds": 0.5768510899506509,
+  "hyp": "請求書 INVOICE\n\n請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数量 : 3\nProject: anydoc-serve 導入支援 担当・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご不明な点は support@example.com までご連絡ください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.068,
+  "seconds": 0.5593758029863238,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. Wnnw la\n\nรายการ: Document conversion API แผนรายเดือน 1,200 nm\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.028,
+  "seconds": 0.5395443849265575,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.06190476190476191,
+  "seconds": 0.4721272299066186,
+  "hyp": "多\n\nDill!\n\n語マニュアル Multilingual manual\n\n第1章 はじめに Chapter 1 Introduction\n\nบทที่ 1บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800円 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.04285714285714286,
+  "seconds": 0.5012489969376475,
+  "hyp": "多言語マニュアル Multilingual manual\n\n第1章 はじめにChapter 1 Introduction\n\nบทที่ 1 บทนํา\n\n本製品は文書をMarkdownに変換します。\n\nThis product converts documents to Markdown.\nผลิตภัณฑ์นี้แปลงเอกสารเป็น Markdown\n\n価格 Price ราคา: 12,800[ปี / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 0.12168302712962031,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, jpn+tha+eng",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.12737177009694278,
+  "hyp": "請求書番号 2026-0928 合計金額 12.800円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 1.3695621800143272,
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 1.2539242459461093,
+  "hyp": "吾重は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。 何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾墓はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。 この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.09623430962343096,
+  "seconds": 1.2201401651836932,
+  "hyp": "講\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.19665271966527198,
+  "seconds": 1.207486879080534,
+  "hyp": "MM\n\n求書\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBh\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\nYeedN\nン\n\n計 : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 1.0335744000039995,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.9894327239599079,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 1.1362765720114112,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 0.9871225848328322,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.074378902092576,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 1.070139338960871,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\nona great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 1.0175167210400105,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 1.0088932898361236,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.24890829694323144,
+  "seconds": 0.8827720968984067,
+  "hyp": "a= INVOICE\n\nMRBBS 2026-0928 Fat SA 12,8004\n\nInvoice total due by October 31\n\nim : Cloud OCR API (Standard plan) 2c : 3\nProject: anydoc-serve #A5¢i #44 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nCARA Z FAIZ support@example.com KC THK ES.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.26200873362445415,
+  "seconds": 0.8184827831573784,
+  "hyp": "afk INVOICE\n\nMRBBS 2026-0928 Gat SM 12,8007\n\nInvoice total due by October 31\n\n‘A : Cloud OCR API (Standard plan) 2H : 3\nProject: anydoc-serve # A sci #44 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nAWA Hk support@example.com ¥C Twins < KS V0\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.44,
+  "seconds": 0.8969436560291797,
+  "hyp": "ใบแจ้งหนี้ โท๐16@ โง๐. ]]งบ-2026-0042\n\nลูกค้า: \"5ะลทาท16 00., 1.1ส่. สํานักงานใหญ่\n\nรายการ: 006นทาอห1 6อทจอชร10ท 4 แผนรายเดือน 1,200 บาท\n'โอไล1 ลททอนท1 สน6: 1.284 1115 (ไก 700)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\n6อทเลด๑(: รแนทด0ห6@๑รลทา1อ.๐๐อทา โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.432,
+  "seconds": 0.8408700539730489,
+  "hyp": "ใบแจ้งหนี้ โถง๐166 ]ง0. [โงบ๊-2026-0042\n\nลูกค้า: 8%ลทาท!6 6อ., 1ส. สํานักงานใหญ่\n\nรายการ: 1006นากลอท1 6อทจลชรไอท 21 แผนรายเดือน 1,200 บาท\nๆอเล| ลทท๐นท1 สน6: 1,284 7 (ขุล” 706)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\n(6อ๓เล๕!(: รแนองอะ1@๑ลทาท16.6อท โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.47619047619047616,
+  "seconds": 0.8514901900198311,
+  "hyp": "a\n\nDill!\n\nav = 2 7 7V Multilingual manual\n\n$818 (LU Hic Chapter 1 Introduction\n\nunit Lumina\n\nAR ML CB Markdownic Atel ET.\n\nThis product converts documents to Markdown.\nwanonhitudanenarsifu Markdown\n\n{m#% Price sim: 12,800F / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.4523809523809524,
+  "seconds": 0.7600451018661261,
+  "hyp": "Sainy —2 77 Multilingual manual\n\n#1 (LU Hc Chapter 1 Introduction\n\nunit Lumina\n\nAS BY i (SCH Markdown lc 248 L EF,\n\nThis product converts documents to Markdown.\nHaaNohiulanonarstiiu Markdown\n\n{iit Price sm: 12,800F9 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.18610707996413112,
+  "hyp": "RE BS 2026-0928 A+ F355 12,800\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection, single language",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.2,
+  "seconds": 0.18754212302155793,
+  "hyp": "RSS 2026-0928 Gat eR 12,800\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 1.5328898429870605,
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 1.2877344691660255,
+  "hyp": "吾重は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。 何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾墓はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。 この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.09623430962343096,
+  "seconds": 1.361561780096963,
+  "hyp": "EH\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.22594142259414227,
+  "seconds": 1.2869374270085245,
+  "hyp": "baits\n\nAR\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBn\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\ntae\nン\n\nat : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.9915733281522989,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 1.016921082045883,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 1.0322542029898614,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 1.0054633379913867,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.0028772831428796,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 1.0283606061711907,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\nona great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 1.0319758059922606,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 0.9838730220217258,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.24890829694323144,
+  "seconds": 0.8533492300193757,
+  "hyp": "a= INVOICE\n\nMRBBS 2026-0928 Fat SA 12,8004\n\nInvoice total due by October 31\n\nim : Cloud OCR API (Standard plan) 2c : 3\nProject: anydoc-serve #A5¢i #44 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nCARA Z FAIZ support@example.com KC THK ES.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.26200873362445415,
+  "seconds": 0.779951442964375,
+  "hyp": "afk INVOICE\n\nMRBBS 2026-0928 Gat SM 12,8007\n\nInvoice total due by October 31\n\n‘A : Cloud OCR API (Standard plan) 2H : 3\nProject: anydoc-serve # A sci #44 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nAWA Hk support@example.com ¥C Twins < KS V0\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.016,
+  "seconds": 0.9656949529889971,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.028,
+  "seconds": 0.9020263790152967,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.47619047619047616,
+  "seconds": 0.7931840380188078,
+  "hyp": "a\n\nDill!\n\nav = 2 7 7V Multilingual manual\n\n$818 (LU Hic Chapter 1 Introduction\n\nunit Lumina\n\nAR ML CB Markdownic Atel ET.\n\nThis product converts documents to Markdown.\nwanonhitudanenarsifu Markdown\n\n{m#% Price sim: 12,800F / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.4523809523809524,
+  "seconds": 0.7372544878162444,
+  "hyp": "Sainy —2 77 Multilingual manual\n\n#1 (LU Hc Chapter 1 Introduction\n\nunit Lumina\n\nAS BY i (SCH Markdown lc 248 L EF,\n\nThis product converts documents to Markdown.\nHaaNohiulanonarstiiu Markdown\n\n{iit Price sm: 12,800F9 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.1798282670788467,
+  "hyp": "RE BS 2026-0928 A+ F355 12,800\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection + eng",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.2,
+  "seconds": 0.1765444460324943,
+  "hyp": "RSS 2026-0928 Gat eR 12,800\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.03017241379310345,
+  "seconds": 2.2378879140596837,
+  "hyp": "吾募は衝である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾暮はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番狂悪な種族\nであったそうだ。この書生というのは時々我々を捕えて基て食うという話である。しか\nしその当時は何という考もなかったから別段往しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.021551724137931036,
+  "seconds": 1.5907397328410298,
+  "hyp": "吾重は猫である。名前はまだ無い。どこで生れたかとんと見当がつかめぬ。 何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。 吾墓はここで始めて\n人間というものを見た。しかもあとで聞く とそれは書生という人間中で一番狂悪な種族\nであったそうだ。 この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段丸しいと も思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.09623430962343096,
+  "seconds": 1.681955415988341,
+  "hyp": "EH\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目 : 文書変換サービス (月額プラン) 数量 :1 単価:12.000円\n品目 : 光学文字認識オプション 数量:3 単価 :4,500円\n\n小計 : 25,500円 消費税 (10%) : 2,550円 合計金額: 28,050円\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.22594142259414227,
+  "seconds": 1.479604966007173,
+  "hyp": "baits\n\nAR\n\n株式会社サンプル商事 御中\n\n発行日 : 2026年9月28日 請求番号 : INV-2026-0042\n\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n\n目 : 文書変換サービス (月額プラン) 数量 :1 単価 : 12.000円\n\nBn\n\n目 : 光学文字認識オプション 数量 : 3 単価:4.500円\n\nEoi\n\ntae\nン\n\nat : 25,500円 消費税 (10%) : 2.550円 合計金額 : 28.050円\n\n振込先 : みずほ銀行 東京支店 普通預金 1234567\n\nご不明な点がございましたら、担当者までお問い合わせください。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 0.9718503919430077,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.018691588785046728,
+  "seconds": 1.0425380570814013,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทํางานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสําคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทําการ\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 1.068215490784496,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.032640949554896145,
+  "seconds": 1.0815725100692362,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคํา แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทําให้การตั\nดคําเป็นปัญหาสําคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคําขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.021086097927764,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0,
+  "seconds": 1.0580916788894683,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 1.2573823030106723,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.004830917874396135,
+  "seconds": 1.1474035799037665,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1x $120.00 $120.00\n\nOptical character recognition add-on 3x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.043668122270742356,
+  "seconds": 1.0537340580485761,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 : 3\nProject: anydoc-serve 導入 支援 担当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.043668122270742356,
+  "seconds": 1.054916163906455,
+  "hyp": "請求 書 INVOICE\n\n請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n\n品目 : Cloud OCR API (Standard plan) 数 量 : 3\nProject: anydoc-serve 導入 支援 担当 ・ Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不明 な 点 は support@example.com まで ご 連絡 くだ さい 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.016,
+  "seconds": 0.9758860648144037,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.028,
+  "seconds": 0.9036353889387101,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\n\nลูกค้า: Example Co., Ltd. สํานักงานใหญ่\n\nรายการ: Document conversion API แผนรายเดือน 1,200 win\nTotal amount due: 1,284 THB (VAT 7%)\n\nกรุณาชําระเงินภายในวันที่ 31 ตุลาคม 2569\n\nContact: support@example.com โทร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.22857142857142856,
+  "seconds": 1.0202652420848608,
+  "hyp": "多\n\nDill!\n\n語 マ ニュ アル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800 円 / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.21428571428571427,
+  "seconds": 1.0194971731398255,
+  "hyp": "多 言語 マニ ュ ア ル Multilingual manual\n\n第 1 章 は じ め に Chapter 1 Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製品 は 文書 を Markdown に 変換 し ます 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価格 Price ร า ค า : 12,800[ ป ี / 3,500 inn\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.016666666666666666,
+  "seconds": 0.2400429891422391,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12,800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata_fast + Sauvola, script detection first, then all",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.03333333333333333,
+  "seconds": 0.24567707790993154,
+  "hyp": "請求 書 番号 2026-0928 合計 金額 12.800 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.008620689655172414,
+  "seconds": 1.7131371500436217,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 撃 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせ ら れ て ス ー と 持 ち 上 げ ら れ た 時 何 だ か フ ワ フ ヮ ワ し た 感 じ が あ っ た ば か り で あ る 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.08189655172413793,
+  "seconds": 1.7443175569642335,
+  "hyp": "吾 輩 は 猛 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 獅 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせられてスーと‡寺ち上璽尹られた時{可プご力ゝフヮフワした感じカ弐あった霧ざ力】りである。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.3472803347280335,
+  "seconds": 1.118786834878847,
+  "hyp": "ซน\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 INV-2026-0042\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④.⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (10%) : ②.⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.3891213389121339,
+  "seconds": 1.209909550147131,
+  "hyp": "aul\n\n肉 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 INV-2026-0042\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n\n目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n\nธี มี\n\n目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : 4,500/\n\nE\n\nA\nレ\n\n計 : ②⑤,⑤00 円 消 費 税 (10%) : ②,⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 0.5958328670822084,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7850467289719626,
+  "seconds": 0.7233306542038918,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ ① ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.6253370449412614,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 0.8211864810436964,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.0035971223021582736,
+  "seconds": 0.6773390260059386,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged ไท a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0017985611510791368,
+  "seconds": 0.555710885906592,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 0.5921206311322749,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1 x$120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.00966183574879227,
+  "seconds": 0.5582640359643847,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) ① x$①②0.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.13100436681222707,
+  "seconds": 0.5272813560441136,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October ③①\n\n品 目 : Cloud OCR API (Standard plan) 数 量 : ③\nProject: anydoc-serve 導 入 支 援 担 当 : Tanaka\nPlease remit to Example Bank, account ⑫③④⑤⑥⑦.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.10480349344978165,
+  "seconds": 0.5915899930987507,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫.⑧00 円\n\nInvoice total due by October ③①\n\n品 目 : Cloud OCR API (Standard plan) 数 量 : ③\nProject: anydoc-serve 導 入 支 援 担 当 : Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 0.904964063083753,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.28,
+  "seconds": 0.9614870459772646,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example 6 อ ., Ltd. สํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.21428571428571427,
+  "seconds": 0.7109644960146397,
+  "hyp": "%\n\n咄\n\n語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価 格 Price mm: 12,8007 / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.24761904761904763,
+  "seconds": 0.7299694351386279,
+  "hyp": "多 言 語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n1 พ ไห Price ร า ค า : 12,800[ ป ี / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.18333333333333332,
+  "seconds": 0.1807442291174084,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, eng+jpn+tha",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.16512281307950616,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October ③①\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.008620689655172414,
+  "seconds": 2.6275120889768004,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 撃 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせ ら れ て ス ー と 持 ち 上 げ ら れ た 時 何 だ か フ ワ フ ヮ ワ し た 感 じ が あ っ た ば か り で あ る 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 2.5799841289408505,
+  "hyp": "吾 輩 は 猫 で あ る 。 名 前 は ま だ 無 い 。 ど こ で 生 れ た か と ん と 見 当 が つ か ぬ 。 何 で も 薄 暗 い\nじ め じ め し た 所 で ニ ャ ー ニ ャ ー 泣 い て い た 事 だ け は 記 憶 し て い る 。 吾 輩 は こ こ で 始 め て\n人 間 と い う も の を 見 た 。 し か も あ と で 聞 く と そ れ は 書 生 と い う 人 間 中 で 一 番 獲 悪 な 種 族\nで あ っ た そ う だ 。 こ の 書 生 と い う の は 時 々 我 々 を 捕 え て 煮 て 食 う と い う 話 で あ る 。 し か\nし そ の 当 時 は 何 と い う 考 も な か っ た か ら 別 段 恐 し い と も 思 わ な か っ た 。 た だ 彼 の 掌 に 載\nせられてスーと持ち上げられた時何だかフヮフヮした感じがあったばかりでぁる。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.3682008368200837,
+  "seconds": 1.8960765509400517,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 : TNV-②0②⑥-00④②\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) BE : ① 単 価 : 12,000\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④.⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (10%) : ②,⑤⑤0 円 合 計 金 額 : ②⑧.0⑤0 円\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 ⑫③④⑤⑥⑦\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.2928870292887029,
+  "seconds": 1.810640563024208,
+  "hyp": "請 求 書\n\n株 式 会 社 サ ン プ ル 商 事 御 中\n\n発 行 日 : ⑳②⑥ 年 ⑨ 月 ②⑧ 日 請 求 番 号 INV-2026-0042\n\n下 記 の 通 り ご 請 求 申 し 上 げ ま す 。 お 支 払 い 期 限 は ⑳②⑥ 年 ①0 月 ③① 日 で す 。\n\n品 目 : 文 書 変 換 サ ー ビ ス ( 月 額 プ ラ ン ) 数 量 : ① 単 価 : ⑫.000 円\n\n品 目 : 光 学 文 字 認 識 オ プ シ ョ ン 数 量 : ③ 単 価 : ④,⑤00 円\n\n小 計 : ②⑤,⑤00 円 消 費 税 (10%) : ②,⑤⑤0 円 合 計 金 額 : ②⑧,0⑤0 円\n\n振 込 先 : み ず ほ 銀 行 東 京 支 店 普 通 預 金 1234567\n\nご 不 明 な 点 が ご ざ い ま し た ら 、 担 当 者 ま で お 問 い 合 わ せ く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.7819314641744548,
+  "seconds": 1.0732949580997229,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ 1 ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.7850467289719626,
+  "seconds": 1.2116023041307926,
+  "hyp": "ป ร ะ ก า ศ บ ร ิ ษั ท เร ื ่ อ ง ก า ร ป ร ั บ ป ร ุ ง ร ะ บ บ เอ ก ส า ร ภา ย ใน อ ง ค ์ ก ร เพ ื ่ อ ให ้ ก า ร ท ํ า ง า น ม ี ป ร ะ ส ิ ท ธิ ภา พ ม า ก ขึ ้ น บ\nร ิ ษั ท จ ะ เป ล ี ่ ย น ม า ใช ้ ร ะ บ บ จ ั ด เก ็ บ เอ ก ส า ร แบ บ ด ิ จ ิ ท ั ล ต ั ้ ง แต ่ ว ั น ท ี ่ ① ต ุ ล า ค ม 2569 เป ็ น ต ้ น ไป พ น ั ก ง า น ท ุ ก ค\nน ต ้ อ ง ส แก น เอ ก ส า ร ส ํ า ค ั ญ แ ล ะ อ ั ป โห ล ด เข ้ า ส ู ่ ร ะ บ บ ภา ย ใน ส า ม ส ิ บ ว ั น ห า ก ม ี ข้ อ ส ง ส ั ย ก ร ุ ณา ต ิ ด ต ่ อ ฝ่า ย เท ค โ\nน โล ย ี ส า ร ส น เท ศ โท ร 02-123-4567 ใน ว ั น แล ะ เว ล า ท ํ า ก า ร\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 1.1007304689846933,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.8338278931750742,
+  "seconds": 1.2485660249367356,
+  "hyp": "ภา ษา ไท ย เป ็ น ภา ษา ท ี ่ ม ี ว ร ร ณ ย ุ ก ต ์ ห ้ า เส ี ย ง ได ้ แก ่ เส ี ย ง ส า ม ั ญ เส ี ย ง เอ ก เส ี ย ง โท เส ี ย ง ต ร ี แล ะ เส ี ย ง จ ั ต ว า\nก า ร เข ี ย น ภา ษา ไท ย ไม ่ ม ี ก า ร เว ้ น ว ร ร ค ร ะ ห ว ่ า ง ค ํ า แต ่ จ ะ เว ้ น ว ร ร ค เม ื ่ อ จ บ ป ร ะ โย ค ห ร ื อ ค ว า ม ค ิ ด ซึ ่ ง ท ํ า ให ้ ก า ร ต ั\nด ค ํ า เป ็ น ป ั ญ ห า ส ํ า ค ั ญ ข อ ง ก า ร ป ร ะ ม ว ล ผล ภา ษา ธร ร ม ชา ต ิ น ั ก ว ิ จ ั ย ห ล า ย ค น จ ึ ง พ ั ฒ น า เค ร ื ่ อ ง ม ื อ ต ั ด ค ํ า ขึ ้ น ม า เ\nพ ื ่ อ ช่ ว ย ให ้ ค อ ม พ ิ ว เต อ ร ์ เข ้ า ใจ ข้ อ ค ว า ม ภา ษา ไท ย ได ้ ถู ก ต ้ อ ง ย ิ ่ ง ขึ ้ น\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.01079136690647482,
+  "seconds": 1.4952624009456486,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged ไท a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nล ร ล final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.0035971223021582736,
+  "seconds": 1.319349774159491,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 1.3561756110284477,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) 1 x$120.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\n\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.00966183574879227,
+  "seconds": 1.297336433082819,
+  "hyp": "INVOICE\n\nAcme Widgets Ltd., 42 Example Street, Springfield\n\nInvoice number: INV-2026-0042 Date: 28 September 2026\n\nBill to: Example Corporation, Accounts Payable\n\nDocument conversion service (monthly plan) ① x$①②0.00 $120.00\n\nOptical character recognition add-on 3 x $45.00 $135.00\n\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\n\nPayment is due within 30 days. Please quote the invoice number with your\npayment.\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.08296943231441048,
+  "seconds": 1.2047869658563286,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n\n品 目 : Cloud OCR API (Standard plan) 数 量 : ③\nProject: anydoc-serve 導 入 支 援 担 当 Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.07423580786026202,
+  "seconds": 1.2220699160825461,
+  "hyp": "請 求 書 INVOICE\n\n請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫.⑧00 円\n\nInvoice total due by October 31\n\n品 目 Cloud OCR API (Standard plan) 数 量 3\nProject: anydoc-serve 導 入 支 援 担 当 Tanaka\nPlease remit to Example Bank, account 1234567.\n\nご 不 明 な 点 は support@example.com ま で ご 連 絡 く だ さ い 。\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.268,
+  "seconds": 1.128227517940104,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example Co., Ltd. ส ํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.28,
+  "seconds": 1.156012921128422,
+  "hyp": "ใบ แจ ้ ง ห น ี ้ Invoice No. INV-2026-0042\n\nล ู ก ค ้ า : Example 6 อ ., Ltd. สํ า น ั ก ง า น ให ญ่\n\nร า ย ก า ร : Document conversion API แผ น ร า ย เด ื อ น 1,200 บ า ท\nTotal amount due: 1,284 THB (VAT 7%)\n\nก ร ุ ณา ชํา ร ะ เง ิ น ภา ย ใน ว ั น ท ี ่ 31 ต ุ ล า ค ม 2569\n\nContact: support@example.com โท ร 02-123-4567\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.21428571428571427,
+  "seconds": 1.2472856999374926,
+  "hyp": "%\n\n咄\n\n語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n価 格 Price mm: 12,8007 / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.24761904761904763,
+  "seconds": 1.1980394260026515,
+  "hyp": "多 言 語 マ ニ ュ ア ル Multilingual manual\n\n第 ① 章 は じ め に Chapter ① Introduction\n\nบ ท ท ี ่ 1 บ ท น ํ า\n\n本 製 品 は 文 書 を Markdown に 変 換 し ま す 。\n\nThis product converts documents to Markdown.\nผล ิ ต ภั ณ ฑ์ น ี ้ แป ล ง เอ ก ส า ร เป ็ น Markdown\n\n1 พ ไห Price ร า ค า : 12,800[ ป ี / 3,500 บ า ท\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.18333333333333332,
+  "seconds": 0.3174449240323156,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October 31\n"
+ },
+ {
+  "engine": "Tesseract 5.5 tessdata + Sauvola, script detection first, then all",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.21666666666666667,
+  "seconds": 0.2979853879660368,
+  "hyp": "請 求 書 番 号 ⑳②⑥-0⑨②⑧ 合 計 金 額 ⑫,⑧00 円\n\nInvoice total due by October ③①\n"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.017241379310344827,
+  "seconds": 4.094984372146428,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所で二ャー二ャ一泣いていた事だけは記憶している。吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.1724137931034483,
+  "seconds": 4.285999452928081,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.016736401673640166,
+  "seconds": 4.373996119946241,
+  "hyp": "請求書\n株式会社サンプル商事 御中\n発行日：2026年9月28日請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）\n数量：1单価：12,000円\n品目：光学文字認識オプション数量：3単価：4,500円\n小計：25,500円消費税（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行　東京支店　普通預金1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.0502092050209205,
+  "seconds": 4.250905859982595,
+  "hyp": "請求書\n株式会社プ商事御中\n発行日：2026年928日請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目:文書変換サービス(月額プラン)\n数量：1单価：12,000円\n品目：光学文字認識才プョ数量：3单価：4,500円\n小計：25,500円消費税（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行東京支店普通預金1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.0,
+  "seconds": 3.1510084860492498,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.006230529595015576,
+  "seconds": 3.242973865941167,
+  "hyp": "ประกาศบริษัท เร่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบติจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.002967359050445104,
+  "seconds": 3.700809763977304,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตั\nดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.005934718100890208,
+  "seconds": 3.152840355876833,
+  "hyp": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัตวา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การตั\nดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเ\nพื่อช่วยให้คอมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่ขึ้น"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.4262589928057554,
+  "seconds": 4.2472097389400005,
+  "hyp": "nation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\ne   T s J  y o o J  S y  s\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.13848920863309352,
+  "seconds": 3.5813877838663757,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\nnation, or any nation so conceived and so dedicated, can long endure. We are met\non a great battle-field of that war. We have come to dedicate a portion of that field,\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0,
+  "seconds": 4.450169818010181,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x $120.00 $120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 3.777749657165259,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x$120.00 $120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.017467248908296942,
+  "seconds": 3.519762384938076,
+  "hyp": "請求書 INVOICE\n請求書番号2026-0928合計金額12,800円\nInvoice total due by October 31\n品目：Cloud OCR API(Standard plan）数量： 3\nProject: anydoc-serve 導入支援担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点は support@example.com までご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.026200873362445413,
+  "seconds": 3.588542209006846,
+  "hyp": "請求書INVOICE\n請求書番号2026-0928 合計金額12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve導入支援担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点はsupport@example.comまでご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.0,
+  "seconds": 3.4371962000150234,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทร 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.012,
+  "seconds": 3.5661399899981916,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com ns 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.23809523809523808,
+  "seconds": 3.389638129854575,
+  "hyp": "多言語マニュアル Multilingual manual\n第1章はじめに Chapter 1 Introduction\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nwāanuniulavlonansilu Markdown\n62\n価格 Price sm1: 12,800円/3,500 unn"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.22857142857142856,
+  "seconds": 3.4361476260237396,
+  "hyp": "多言語マニュアル Multilingual manual\n第1章はじめにChapter1Introduction\nuni 1 unin\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nwānnuniuuavtananstiu Markdown\n価格 Price s1a1: 12,800円/3,500 un"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 2.1394915769342333,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv5 mobile",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.06666666666666667,
+  "seconds": 2.1038789181038737,
+  "hyp": "請求書番号2026-0928合計額12,800円\nInvoice total due by October 31"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "jpn-p1-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 232,
+  "cer": 0.004310344827586207,
+  "seconds": 3.567132443189621,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番寧悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "jpn-p1-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 232,
+  "cer": 0.004310344827586207,
+  "seconds": 4.052759940968826,
+  "hyp": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗い\nじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて\n人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番檸悪な種族\nであったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しか\nしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載\nせられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "jpn-p2-clean.png",
+  "lang": "jpn",
+  "variant": "clean",
+  "chars": 239,
+  "cer": 0.0041841004184100415,
+  "seconds": 3.580880006076768,
+  "hyp": "請求書\n株式会社サンプル商事御中\n発行日：2026年9月28日 請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）\n数量：1単価：12,000円\n品目：光学文字認識オプション数量：3 単価：4,500円\n小計：25,500円消費税（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行 東京支店 普通預金 1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "jpn-p2-scan.jpg",
+  "lang": "jpn",
+  "variant": "scan",
+  "chars": 239,
+  "cer": 0.016736401673640166,
+  "seconds": 3.607598277973011,
+  "hyp": "請求書\n株式会社サンプル商事御中\n発行日：2026年9月28日請求番号：INV-2026-0042\n下記の通りご請求申し上げます。お支払い期限は2026年10月31日です。\n品目：文書変換サービス（月額プラン）数量：1単価：12,000円\n品目：光学文字認識オプション数量：3単価：4,500円\n小計：25,500円消費税（10%）：2,550円合計金額：28,050円\n振込先：みずほ銀行東京支店普通預金1234567\nご不明な点がございましたら、担当者までお問い合わせください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "tha-p1-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 321,
+  "cer": 0.009345794392523364,
+  "seconds": 3.966420809039846,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nC\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้าสู่ระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "tha-p1-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 321,
+  "cer": 0.006230529595015576,
+  "seconds": 3.3045559769961983,
+  "hyp": "ประกาศบริษัท เรื่อง การปรับปรุงระบบเอกสารภายในองค์กร เพื่อให้การทำงานมีประสิทธิภาพมากขึ้น บ\nริษัทจะเปลี่ยนมาใช้ระบบจัดเก็บเอกสารแบบดิจิทัลตั้งแต่วันที่ 1 ตุลาคม 2569 เป็นต้นไป พนักงานทุกค\nนต้องสแกนเอกสารสำคัญและอัปโหลดเข้สูระบบภายในสามสิบวัน หากมีข้อสงสัยกรุณาติดต่อฝ่ายเทคโ\nนโลยีสารสนเทศ โทร 02-123-4567 ในวันและเวลาทำการ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "tha-p2-clean.png",
+  "lang": "tha",
+  "variant": "clean",
+  "chars": 337,
+  "cer": 0.20474777448071216,
+  "seconds": 3.3489064888563007,
+  "hyp": "ภาษาไทยเป็นภาษาี่มีวรรณยุก์หาเสียง ได้แก เสียงสามัญ เสียงเอก เสียงโท เสียตรี และเสียงัตวา\nการเขียนภาษาไทยไม่มีการเวันวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การั\nดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่องมือตัดคำขึ้นมาเ"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "tha-p2-scan.jpg",
+  "lang": "tha",
+  "variant": "scan",
+  "chars": 337,
+  "cer": 0.026706231454005934,
+  "seconds": 3.3757393839769065,
+  "hyp": "ภาษาไทยเป็นภาษาทีมีวรรณยกด์ห้าเสียง ได้แก่ เสียงสามัญ เสียงเอก เสียงโท เสียงตรี และเสียงจัววา\nการเขียนภาษาไทยไม่มีการเว้นวรรคระหว่างคำ แต่จะเว้นวรรคเมื่อจบประโยคหรือความคิด ซึ่งทำให้การต\nดคำเป็นปัญหาสำคัญของการประมวลผลภาษาธรรมชาติ นักวิจัยหลายคนจึงพัฒนาเครื่งมือตัดำขึ้นมาเ\nพื่อช่วยให้ค้อมพิวเตอร์เข้าใจข้อความภาษาไทยได้ถูกต้องยิ่งขึ้น"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "eng-p1-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 556,
+  "cer": 0.14028776978417265,
+  "seconds": 3.9972569760866463,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\no t  o          -   e\nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "eng-p1-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 556,
+  "cer": 0.13309352517985612,
+  "seconds": 3.328965531894937,
+  "hyp": "Four score and seven years ago our fathers brought forth on this continent, a new\nnation, conceived in Liberty, and dedicated to the proposition that all men are\ncreated equal. Now we are engaged in a great civil war, testing whether that\nnation, or any nation so conceived and so dedicated, can long endure. We are met\nont t  d      t d    t  \nas a final resting place for those who here gave their lives that that nation might\nlive. It is altogether fitting and proper that we should do this."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "eng-p2-clean.png",
+  "lang": "eng",
+  "variant": "clean",
+  "chars": 414,
+  "cer": 0.0024154589371980675,
+  "seconds": 3.646263926057145,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x $120.00$120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "eng-p2-scan.jpg",
+  "lang": "eng",
+  "variant": "scan",
+  "chars": 414,
+  "cer": 0.0,
+  "seconds": 3.350777067942545,
+  "hyp": "INVOICE\nAcme Widgets Ltd., 42 Example Street, Springfield\nInvoice number: INV-2026-0042 Date: 28 September 2026\nBill to: Example Corporation, Accounts Payable\nDocument conversion service (monthly plan) 1 x $120.00 $120.00\nOptical character recognition add-on 3 x $45.00 $135.00\nSubtotal: $255.00 Tax (10%): $25.50 Total due: $280.50\nPayment is due within 30 days. Please quote the invoice number with your\npayment."
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-je-p1-clean.png",
+  "lang": "mix-je",
+  "variant": "clean",
+  "chars": 229,
+  "cer": 0.026200873362445413,
+  "seconds": 3.2893460371997207,
+  "hyp": "請求書INVOICE\n請求書番号2026-0928合計金額12,800円\nInvoice total due by October 31\n品目:Cloud OCR API(Standard plan）数量：3\nProject: anydoc-serve 導入支援 担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点はsupport@example.comまでご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-je-p1-scan.jpg",
+  "lang": "mix-je",
+  "variant": "scan",
+  "chars": 229,
+  "cer": 0.026200873362445413,
+  "seconds": 3.495264677796513,
+  "hyp": "請求書INVOICE\n請求書番号2026-0928合計金額12,800円\nInvoice total due by October 31\n品目：Cloud OCR API（Standard plan）数量：3\nProject: anydoc-serve 導入支援 担当：Tanaka\nPlease remit to Example Bank, account 1234567.\nご不明な点はsupport@example.comまでご連絡ください。"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-te-p1-clean.png",
+  "lang": "mix-te",
+  "variant": "clean",
+  "chars": 250,
+  "cer": 0.0,
+  "seconds": 3.5759975272230804,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทร 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-te-p1-scan.jpg",
+  "lang": "mix-te",
+  "variant": "scan",
+  "chars": 250,
+  "cer": 0.004,
+  "seconds": 3.618102455046028,
+  "hyp": "ใบแจ้งหนี้ Invoice No. INV-2026-0042\nลูกค้า: Example Co., Ltd. สำนักงานใหญ่\nรายการ: Document conversion API แผนรายเดือน 1,200 บาท\nTotal amount due: 1,284 THB (VAT 7%)\nกรุณาชำระเงินภายในวันที่ 31 ตุลาคม 2569\nContact: support@example.com โทs 02-123-4567"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-jte-p1-clean.png",
+  "lang": "mix-jte",
+  "variant": "clean",
+  "chars": 210,
+  "cer": 0.2619047619047619,
+  "seconds": 2.900102101964876,
+  "hyp": "多言語マニュアルMultilingual manual\n第1章はじめにChapter 1 Introduction\nun1 uni\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\n価格 Price 5n: 12,800円 / 3,500 unn"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "mix-jte-p1-scan.jpg",
+  "lang": "mix-jte",
+  "variant": "scan",
+  "chars": 210,
+  "cer": 0.20952380952380953,
+  "seconds": 3.0838465760461986,
+  "hyp": "多言語マニュアルMultilingual manual\n第1章はじめにChapter 1 Introduction\nunn 1 unl\n本製品は文書をMarkdownに変換します。\nThis product converts documents to Markdown.\nwânuulavanamu Markdown\n価格 Price 51m1: 12,800円 / 3,500 umn"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "review-p1-clean.png",
+  "lang": "review",
+  "variant": "clean",
+  "chars": 60,
+  "cer": 0.0,
+  "seconds": 2.534223275957629,
+  "hyp": "請求書番号 2026-0928 合計金額 12,800円\nInvoice total due by October 31"
+ },
+ {
+  "engine": "RapidOCR PP-OCRv6 small",
+  "file": "review-p1-scan.jpg",
+  "lang": "review",
+  "variant": "scan",
+  "chars": 60,
+  "cer": 0.03333333333333333,
+  "seconds": 2.5354801858775318,
+  "hyp": "請求書番号2026-0928 合計金額12,800円\nInvoice total due by October 31"
+ }
+]
