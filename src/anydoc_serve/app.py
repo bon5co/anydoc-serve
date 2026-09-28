@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import hmac
+import threading
 import json
 import logging
 from collections.abc import AsyncIterator
@@ -31,7 +32,9 @@ class ConvertUrlRequest(BaseModel):
     url: HttpUrl = Field(description="http(s) URL of the document to fetch and convert.")
     format: str | None = Field(None, description="Force a format, e.g. `csv`. Default: detected from the bytes.")
     ocr: OcrMode = Field("auto", description="`auto` OCRs only what anydoc cannot read; `off` refuses scanned input.")
-    output: Output = Field("json", description="`markdown` answers `text/markdown` instead of JSON.")
+    output: Output | None = Field(
+        None, description="`markdown` answers `text/markdown` instead of JSON. Default: `json`, or `Accept`."
+    )
 
 
 class ConvertResponse(BaseModel):
@@ -58,33 +61,94 @@ class Service:
         self.settings = settings
         self.converter = converter
         self.slots = asyncio.Semaphore(settings.max_concurrent_conversions)
+        self.fetches = asyncio.Semaphore(settings.max_concurrent_conversions * 2)
 
     async def convert(
         self, data: bytes, *, filename: str | None, format_hint: str | None, ocr: OcrMode
     ) -> ConvertResult:
         if len(data) > self.settings.max_upload_bytes:
             raise ConversionError(413, "too_large", f"document is larger than {self.settings.max_upload_mb:g} MB")
-        async with self.slots:
-            try:
-                return await asyncio.wait_for(
-                    asyncio.to_thread(
-                        self.converter.convert, data, filename=filename, format_hint=format_hint, ocr=ocr
-                    ),
-                    timeout=self.settings.convert_timeout_s,
+        # The slot is released when the worker thread finishes, not when the
+        # request gives up: a timed-out conversion is told to stop at the next
+        # page, and until it has, it still counts against the limit.
+        await self.slots.acquire()
+        cancel = threading.Event()
+        try:
+            task = asyncio.ensure_future(
+                asyncio.to_thread(
+                    self.converter.convert, data, filename=filename, format_hint=format_hint, ocr=ocr, cancel=cancel
                 )
-            except TimeoutError as error:
-                raise ConversionError(
-                    504, "timeout", f"conversion took longer than {self.settings.convert_timeout_s:g}s"
-                ) from error
+            )
+        except BaseException:
+            self.slots.release()
+            raise
+        task.add_done_callback(self._finished)
+        try:
+            return await asyncio.wait_for(asyncio.shield(task), timeout=self.settings.convert_timeout_s)
+        except TimeoutError as error:
+            cancel.set()
+            raise ConversionError(
+                504, "timeout", f"conversion took longer than {self.settings.convert_timeout_s:g}s"
+            ) from error
+
+    def _finished(self, task: asyncio.Future[ConvertResult]) -> None:
+        self.slots.release()
+        if not task.cancelled():
+            task.exception()  # mark retrieved; a timed-out task's error has nobody left to report to
 
     async def convert_url(self, url: str, *, format_hint: str | None, ocr: OcrMode) -> ConvertResult:
-        data, filename = await fetch(
-            url,
-            max_bytes=self.settings.max_upload_bytes,
-            timeout=self.settings.fetch_timeout_s,
-            allow_private=self.settings.allow_private_urls,
-        )
+        async with self.fetches:
+            data, filename = await fetch(
+                url,
+                max_bytes=self.settings.max_upload_bytes,
+                timeout=self.settings.fetch_timeout_s,
+                allow_private=self.settings.allow_private_urls,
+            )
         return await self.convert(data, filename=filename, format_hint=format_hint, ocr=ocr)
+
+
+class _BodyTooLarge(Exception):
+    pass
+
+
+class BodyLimit:
+    """ASGI middleware: refuse request bodies over `limit` bytes as they
+    stream in, chunked or not, before anything buffers them."""
+
+    def __init__(self, app: ASGIApp, limit: int) -> None:
+        self.app = app
+        self.limit = limit
+
+    async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
+        if scope["type"] != "http":
+            return await self.app(scope, receive, send)
+        received = 0
+        started = False
+
+        async def limited_receive() -> dict[str, Any]:
+            nonlocal received
+            message = await receive()
+            if message["type"] == "http.request":
+                received += len(message.get("body", b""))
+                if received > self.limit:
+                    raise _BodyTooLarge
+            return message
+
+        async def tracking_send(message: dict[str, Any]) -> None:
+            nonlocal started
+            started = started or message["type"] == "http.response.start"
+            await send(message)
+
+        try:
+            await self.app(scope, limited_receive, tracking_send)
+        except _BodyTooLarge:
+            if started:
+                raise
+            response = JSONResponse(
+                {"error": {"code": "too_large", "message": f"request body is larger than {self.limit} bytes"}},
+                status_code=413,
+            )
+            await response(scope, receive, send)
 
 
 class BearerAuth:
@@ -94,13 +158,14 @@ class BearerAuth:
 
     def __init__(self, app: ASGIApp, api_key: str) -> None:
         self.app = app
-        self.expected = f"Bearer {api_key}".encode() if api_key else b""
+        self.expected = api_key.encode()
 
     async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
-        if not self.expected or scope["type"] != "http" or scope["path"] == "/health":
+        # only lifespan passes unchecked, so a future websocket route cannot be open by accident
+        if not self.expected or scope["type"] == "lifespan" or scope.get("path") == "/health":
             return await self.app(scope, receive, send)
-        supplied = dict(scope["headers"]).get(b"authorization", b"")
-        if hmac.compare_digest(supplied, self.expected):
+        scheme, _, token = dict(scope["headers"]).get(b"authorization", b"").partition(b" ")
+        if scheme.lower() == b"bearer" and hmac.compare_digest(token.strip(), self.expected):
             return await self.app(scope, receive, send)
         response = JSONResponse(
             {"error": {"code": "unauthorized", "message": "missing or wrong `Authorization: Bearer <API_KEY>`"}},
@@ -167,6 +232,8 @@ def create_app(settings: Settings | None = None, converter: Converter | None = N
     mcp = build_mcp(service)
     mcp_app = mcp.streamable_http_app(
         stateless_http=True,
+        # a document travels base64-encoded inside the JSON-RPC body
+        max_request_body_size=settings.max_upload_bytes * 4 // 3 + 64 * 1024,
         json_response=True,
         # Served behind arbitrary hostnames (Railway, reverse proxies); access
         # control is the API_KEY bearer check, not a Host allowlist.
@@ -257,7 +324,7 @@ def create_app(settings: Settings | None = None, converter: Converter | None = N
                         {"error": {"code": "bad_request", "message": "invalid JSON body", "errors": error.errors(include_url=False, include_context=False)}},
                         status_code=400,
                     )
-                output = output or body.output
+                output = output or body.output  # None falls through to the Accept header
                 result = await service.convert_url(str(body.url), format_hint=body.format, ocr=body.ocr)
             else:
                 raise ConversionError(
@@ -271,5 +338,6 @@ def create_app(settings: Settings | None = None, converter: Converter | None = N
     # they match first) with the SDK's default /mcp path: a Mount("/mcp")
     # would 307 /mcp -> /mcp/, which breaks clients behind TLS proxies.
     app.mount("/", mcp_app)
-    app.add_middleware(BearerAuth, api_key=settings.api_key)
+    app.add_middleware(BodyLimit, limit=settings.max_upload_bytes * 4 // 3 + 1024 * 1024)
+    app.add_middleware(BearerAuth, api_key=settings.api_key)  # added last = runs first
     return app

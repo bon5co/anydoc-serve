@@ -14,6 +14,7 @@ image is not a format it knows. This module fills exactly that gap:
 from __future__ import annotations
 
 import io
+import math
 import threading
 import time
 from dataclasses import dataclass, field
@@ -31,6 +32,15 @@ OcrMode = Literal["auto", "off"]
 # thread pool, so every PDFium call goes through this lock. OCR and anydoc
 # run outside it.
 PDFIUM_LOCK = threading.RLock()
+
+# Pillow only warns between MAX_IMAGE_PIXELS (89 Mpx) and twice that; the
+# converter refuses anything over it outright, frame by frame, before decoding,
+# so a small file cannot expand into gigabytes of pixels.
+MAX_IMAGE_PIXELS = Image.MAX_IMAGE_PIXELS or 89_478_485
+
+# Largest bitmap a PDF page is rendered to for OCR (A4 at 200 dpi is 3.9 Mpx).
+# A page with a huge MediaBox is rendered at a lower resolution instead.
+MAX_RENDER_PIXELS = 50_000_000
 
 IMAGE_SIGNATURES: tuple[tuple[bytes, str], ...] = (
     (b"\x89PNG\r\n\x1a\n", "png"),
@@ -127,6 +137,7 @@ class Converter:
         self.ocr = ocr
         self.ocr_dpi = ocr_dpi
         self.ocr_max_pages = ocr_max_pages
+        self._local = threading.local()  # per-thread cancel flag: one Converter serves every conversion
 
     def convert(
         self,
@@ -135,7 +146,23 @@ class Converter:
         filename: str | None = None,
         format_hint: str | None = None,
         ocr: OcrMode = "auto",
+        cancel: threading.Event | None = None,
     ) -> ConvertResult:
+        """Convert one document. `cancel`, when set from another thread, stops
+        the conversion at the next page boundary (used after a timeout)."""
+        try:
+            return self._convert(data, filename, format_hint, ocr, cancel or threading.Event())
+        except ConversionError:
+            raise
+        except pdfium.PdfiumError as error:
+            raise ConversionError(422, "malformed", f"unreadable PDF: {error}") from error
+        except Exception as error:  # a bug or an engine failure: still a JSON error, not a bare 500
+            raise ConversionError(500, "internal", f"{type(error).__name__}: {error}") from error
+
+    def _convert(
+        self, data: bytes, filename: str | None, format_hint: str | None, ocr: OcrMode, cancel: threading.Event
+    ) -> ConvertResult:
+        self._local.cancel = cancel
         started = time.perf_counter()
         if not data:
             raise ConversionError(400, "empty", "the document is empty")
@@ -155,8 +182,8 @@ class Converter:
                 markdown = self._ocr_pdf(data, list(error.pages), error.page_count, ocr, meta)
             except anydoc.ConvertError as error:
                 raise _anydoc_error(error) from error
-            if fmt == "pdf":
-                meta.setdefault("page_count", _page_count(data))
+            if fmt == "pdf" and "page_count" not in meta:
+                meta["page_count"] = _page_count(data)
 
         meta["duration_ms"] = round((time.perf_counter() - started) * 1000, 1)
         return ConvertResult(markdown=markdown, metadata=meta)
@@ -169,25 +196,48 @@ class Converter:
             raise ConversionError(422, "needs_ocr", f"{why}, and {reason}", **detail)
         return self.ocr
 
+    def _check_cancel(self) -> None:
+        cancel = getattr(self._local, "cancel", None)
+        if cancel is not None and cancel.is_set():
+            raise ConversionError(504, "timeout", "conversion cancelled after the time limit")
+
     def _ocr_image(self, data: bytes, mode: OcrMode, meta: dict[str, Any]) -> str:
         engine = self._require_ocr(mode, "images need OCR")
         try:
             image = Image.open(io.BytesIO(data))
-            frames = [frame.copy() for frame in ImageSequence.Iterator(image)]  # multi-page TIFF scans
+            # an animated GIF is one picture; a multi-page TIFF is a multi-page scan
+            count = 1 if image.format == "GIF" else int(getattr(image, "n_frames", 1))
+        except (Image.DecompressionBombError, Image.DecompressionBombWarning) as error:
+            raise ConversionError(413, "image_too_large", str(error)) from error
         except Exception as error:  # PIL raises a zoo of types for bad input
             raise ConversionError(422, "malformed", f"unreadable image: {error}") from error
-        if len(frames) > self.ocr_max_pages:
-            raise ConversionError(
-                413, "too_many_ocr_pages", f"{len(frames)} image frames; the limit is {self.ocr_max_pages}"
-            )
-        if image.format == "GIF":  # an animation is one picture, not pages
-            frames = frames[:1]
-        pages = list(range(1, len(frames) + 1))
-        meta.update(ocr_engine=engine.name, ocr_langs=engine.langs, ocr_pages=pages, page_count=len(frames))
+        if count > self.ocr_max_pages:
+            raise ConversionError(413, "too_many_ocr_pages", f"{count} image frames; the limit is {self.ocr_max_pages}")
         dpi = image.info.get("dpi")
         dpi = float(dpi[0]) if isinstance(dpi, tuple) and dpi else None
-        parts = [engine.recognize(frame, dpi).markdown() for frame in frames]
-        return "\n".join(part for part in parts if part.strip()) or ""
+        parts = []
+        for index in range(count):  # decode and OCR one frame at a time
+            self._check_cancel()
+            try:
+                image.seek(index)
+                if image.width * image.height > MAX_IMAGE_PIXELS:
+                    raise ConversionError(
+                        413,
+                        "image_too_large",
+                        f"frame {index + 1} is {image.width}x{image.height}, over {MAX_IMAGE_PIXELS} pixels",
+                    )
+                frame = image.copy()
+            except ConversionError:
+                raise
+            except Image.DecompressionBombError as error:
+                raise ConversionError(413, "image_too_large", str(error)) from error
+            except Exception as error:
+                raise ConversionError(422, "malformed", f"unreadable image frame {index + 1}: {error}") from error
+            parts.append(engine.recognize(frame, dpi).markdown())
+        meta.update(
+            ocr_engine=engine.name, ocr_langs=engine.langs, ocr_pages=list(range(1, count + 1)), page_count=count
+        )
+        return "\n".join(part for part in parts if part.strip())
 
     def _ocr_pdf(self, data: bytes, pages: list[int], page_count: int, mode: OcrMode, meta: dict[str, Any]) -> str:
         detail = {"pages": pages, "page_count": page_count}
@@ -213,6 +263,7 @@ class Converter:
         # Walk pages in order, as runs of text pages (anydoc) and scanned pages (OCR).
         page = 1
         while page <= page_count:
+            self._check_cancel()
             if page in need:
                 parts.append(self._ocr_page(engine, pdf, page))
                 ocr_done.append(page)
@@ -224,6 +275,7 @@ class Converter:
             text = self._anydoc_range(pdf, page, end)
             if text is None:  # anydoc changed its mind on the cut-out range: OCR it
                 for p in range(page, end + 1):
+                    self._check_cancel()
                     parts.append(self._ocr_page(engine, pdf, p))
                     ocr_done.append(p)
             else:
@@ -235,20 +287,26 @@ class Converter:
     def _ocr_page(self, engine: OcrEngine, pdf: pdfium.PdfDocument, page: int) -> str:
         with PDFIUM_LOCK:
             pdf_page = pdf[page - 1]
-            bitmap = pdf_page.render(scale=self.ocr_dpi / 72, grayscale=True)
+            width, height = pdf_page.get_size()  # points
+            scale = self.ocr_dpi / 72
+            if width * height * scale * scale > MAX_RENDER_PIXELS:
+                scale = math.sqrt(MAX_RENDER_PIXELS / (width * height))
+            bitmap = pdf_page.render(scale=scale, grayscale=True)
             image = bitmap.to_pil().copy()  # detach from PDFium-owned memory before closing
             bitmap.close()
             pdf_page.close()
-        return engine.recognize(image, self.ocr_dpi).markdown()
+        return engine.recognize(image, scale * 72).markdown()
 
     @staticmethod
     def _anydoc_range(pdf: pdfium.PdfDocument, first: int, last: int) -> str | None:
         buf = io.BytesIO()
         with PDFIUM_LOCK:
             sub = pdfium.PdfDocument.new()
-            sub.import_pages(pdf, list(range(first - 1, last)))
-            sub.save(buf)
-            sub.close()
+            try:
+                sub.import_pages(pdf, list(range(first - 1, last)))
+                sub.save(buf)
+            finally:
+                sub.close()
         try:
             return anydoc.to_markdown_bytes(buf.getvalue(), "pdf")
         except (anydoc.NeedsOcrError, anydoc.UnsupportedError):

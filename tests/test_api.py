@@ -193,6 +193,79 @@ def test_timeout(make_client, fixture_bytes, fake_ocr, monkeypatch):
     assert r.json()["error"]["code"] == "timeout"
 
 
+def test_timed_out_conversion_keeps_its_slot_until_it_stops(make_client, fixture_bytes, fake_ocr, monkeypatch):
+    import threading
+    import time
+
+    release = threading.Event()
+    monkeypatch.setattr(fake_ocr, "recognize", lambda image, dpi=None: release.wait(5))
+    client = make_client(convert_timeout_s=0.2, max_concurrent_conversions=1)
+    service = client.app.state.service
+    assert upload(client, "scan.jpg", fixture_bytes("scan-eng.jpg")).status_code == 504
+    assert service.slots.locked()  # the OCR thread is still running
+    release.set()
+    for _ in range(50):
+        if not service.slots.locked():
+            break
+        time.sleep(0.05)
+    assert not service.slots.locked()
+
+
+def test_chunked_body_over_limit_is_413(make_client):
+    client = make_client(max_upload_mb=0.01)
+
+    def chunks():
+        for _ in range(100):
+            yield b"x" * 65536
+
+    r = client.post("/v1/convert", content=chunks(), headers={"content-type": "application/json"})
+    assert r.status_code == 413
+    assert r.json()["error"]["code"] == "too_large"
+
+
+def test_animated_gif_reads_first_frame_only(client, fake_ocr):
+    import io
+
+    from PIL import Image
+
+    buf = io.BytesIO()
+    frames = [Image.new("L", (50 + i, 40), 255) for i in range(3)]
+    frames[0].save(buf, "GIF", save_all=True, append_images=frames[1:])
+    r = upload(client, "a.gif", buf.getvalue())
+    assert r.status_code == 200, r.text
+    assert fake_ocr.calls == [(50, 40)]
+
+
+def test_decompression_bomb_is_413(client):
+    import io
+
+    from PIL import Image
+
+    buf = io.BytesIO()
+    Image.new("1", (10000, 10000)).save(buf, "PNG")  # 100 Mpx, a few KB on disk
+    r = upload(client, "bomb.png", buf.getvalue())
+    assert r.status_code == 413
+    assert r.json()["error"]["code"] == "image_too_large"
+
+
+def test_huge_pdf_page_renders_under_the_pixel_cap(client, fake_ocr):
+    import io
+
+    import pypdfium2 as pdfium
+
+    from anydoc_serve.convert import MAX_RENDER_PIXELS
+
+    pdf = pdfium.PdfDocument.new()
+    pdf.new_page(14400, 14400)  # 200 x 200 inches, blank: anydoc says it needs OCR
+    buf = io.BytesIO()
+    pdf.save(buf)
+    r = upload(client, "huge.pdf", buf.getvalue())
+    assert r.status_code == 200, r.text
+    (w, h), dpi = fake_ocr.calls[0], fake_ocr.dpis[0]
+    assert w * h <= MAX_RENDER_PIXELS * 1.01
+    assert dpi < 200
+
+
 def test_unsupported_content_type(client):
     r = client.post("/v1/convert", content=b"x", headers={"content-type": "text/plain"})
     assert r.status_code == 415
@@ -253,6 +326,10 @@ def test_api_key_guards_everything_but_health(make_client, fixture_bytes):
         "/v1/convert", files={"file": ("a.docx", fixture_bytes("anydoc-text.docx"))}, headers={"Authorization": "Bearer nope"}
     )
     assert bad.status_code == 401
+    lower = client.post(
+        "/v1/convert", files={"file": ("a.docx", fixture_bytes("anydoc-text.docx"))}, headers={"Authorization": "bearer s3cret"}
+    )
+    assert lower.status_code == 200
     good = client.post(
         "/v1/convert", files={"file": ("a.docx", fixture_bytes("anydoc-text.docx"))}, headers={"Authorization": "Bearer s3cret"}
     )

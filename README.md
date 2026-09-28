@@ -118,7 +118,7 @@ Clients configured with an `mcpServers` JSON block that supports remote HTTP ser
 | `MAX_UPLOAD_MB` | `50` | Largest document accepted, uploaded or fetched. |
 | `CONVERT_TIMEOUT_S` | `120` | Wall-clock limit per conversion, OCR included; over it answers `504`. |
 | `MAX_CONCURRENT_CONVERSIONS` | `2` | Conversions that run at once (the rest wait). Each slot holds its own loaded OCR models. |
-| `FETCH_TIMEOUT_S` | `30` | Timeout for downloading a `{"url": ...}` source. |
+| `FETCH_TIMEOUT_S` | `30` | Limit for downloading a `{"url": ...}` source, redirects included. |
 | `ALLOW_PRIVATE_URLS` | `false` | Allow URL sources that resolve to private, loopback or link-local addresses. Off by default so the server cannot be used to reach its own network. |
 
 ## Resource use
@@ -126,8 +126,8 @@ Clients configured with an `mcpServers` JSON block that supports remote HTTP ser
 Measured on `linux/amd64`, 2026-09-28:
 
 - **Image:** 376 MB on disk (94 MB compressed download). Tesseract models for English, Japanese, Thai and script detection are 18 MB of that.
-- **Memory:** 321 MiB RSS idle after startup (OCR models loaded for both conversion slots), 408 MiB after a round of conversions (`docker stats`).
-- **Speed:** a born-digital `.docx` converts in about 2 ms; OCR takes about 1 s per page (median, 4 cores of an Intel i5-10500T). A 4-page PDF with 2 scanned pages took 1.7 s.
+- **Memory:** 321 MiB RSS idle after startup (OCR models loaded for both conversion slots), 399 to 408 MiB after a round of conversions (`docker stats`, two runs).
+- **Speed:** a born-digital `.docx` converts in about 2 ms; OCR takes about 1 s per page (median, 4 cores of an Intel i5-10500T). A 4-page PDF with 2 scanned pages took 1.5 to 1.7 s.
 
 ## OCR benchmark
 

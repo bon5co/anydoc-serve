@@ -22,7 +22,8 @@ class Settings(BaseSettings):
     max_upload_mb: float = Field(50, description="Largest accepted document, uploaded or fetched by URL.")
     convert_timeout_s: float = Field(120, description="Wall-clock limit for one conversion, OCR included.")
     max_concurrent_conversions: int = Field(
-        2, description="Conversions running at once; the rest wait. OCR is CPU-bound, so keep this near the core count."
+        2,
+        ge=1, description="Conversions running at once; the rest wait. OCR is CPU-bound, so keep this near the core count."
     )
 
     ocr_enabled: bool = Field(True, description="Set false to never OCR: scanned input then fails like plain anydoc.")
@@ -30,10 +31,10 @@ class Settings(BaseSettings):
         ["eng", "jpn", "tha"],
         description="Comma-separated OCR languages, from: eng, jpn, tha.",
     )
-    ocr_dpi: int = Field(200, description="Resolution scanned PDF pages are rendered at before OCR.")
+    ocr_dpi: int = Field(200, ge=50, le=600, description="Resolution scanned PDF pages are rendered at before OCR.")
     ocr_max_pages: int = Field(200, description="A document needing OCR on more pages than this is refused.")
 
-    fetch_timeout_s: float = Field(30, description="Timeout for downloading a `{url}` source.")
+    fetch_timeout_s: float = Field(30, description="Limit for downloading a `{url}` source, redirects included.")
     allow_private_urls: bool = Field(
         False,
         description="Allow `{url}` sources that resolve to private, loopback or link-local addresses.",
