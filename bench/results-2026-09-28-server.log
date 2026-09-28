@@ -1,0 +1,12 @@
+anydoc-serve engine (as shipped)                   jpn-p1-clean.png       CER 0.030  1.30s  lang=jpn
+anydoc-serve engine (as shipped)                   jpn-p1-scan.jpg        CER 0.017  1.19s  lang=jpn
+anydoc-serve engine (as shipped)                   jpn-p2-clean.png       CER 0.017  1.10s  lang=jpn
+anydoc-serve engine (as shipped)                   jpn-p2-scan.jpg        CER 0.077  1.08s  lang=jpn
+anydoc-serve engine (as shipped)                   tha-p1-clean.png       CER 0.000  0.97s  lang=tha
+anydoc-serve engine (as shipped)                   tha-p1-scan.jpg        CER 0.000  0.92s  lang=tha
+anydoc-serve engine (as shipped)                   tha-p2-clean.png       CER 0.000  1.05s  lang=tha
+anydoc-serve engine (as shipped)                   tha-p2-scan.jpg        CER 0.000  0.93s  lang=tha
+anydoc-serve engine (as shipped)                   eng-p1-clean.png       CER 0.000  1.00s  lang=eng
+anydoc-serve engine (as shipped)                   eng-p1-scan.jpg        CER 0.000  1.00s  lang=eng
+anydoc-serve engine (as shipped)                   eng-p2-clean.png       CER 0.000  0.96s  lang=eng
+anydoc-serve engine (as shipped)                   eng-p2-scan.jpg        CER 0.000  0.95s  lang=eng

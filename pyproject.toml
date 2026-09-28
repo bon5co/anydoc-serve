@@ -1,0 +1,37 @@
+[project]
+name = "anydoc-serve"
+version = "0.1.0"
+description = "HTTP and MCP server for firecrawl/anydoc, with local CPU OCR for scanned PDFs and images (English, Japanese, Thai)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "firecrawl-anydoc>=0.2.4",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "pydantic-settings>=2.7",
+    "httpx>=0.27",
+    "pypdfium2>=4.30",
+    "pillow>=10.4",
+    "mcp>=2.2,<3",
+    "tesserocr>=2.11",
+]
+
+[project.scripts]
+anydoc-serve = "anydoc_serve.__main__:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "anyio>=4"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/anydoc_serve"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: needs a running container (ANYDOC_SERVE_URL)"]
+addopts = "-m 'not integration'"

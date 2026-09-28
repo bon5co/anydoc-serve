@@ -1,0 +1,13 @@
+services:
+  anydoc-serve:
+    image: ghcr.io/bon5co/anydoc-serve:latest
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      # Leave empty to run without auth on a trusted network.
+      API_KEY: ${API_KEY:-}
+      OCR_LANGS: ${OCR_LANGS:-eng,jpn,tha}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-50}
+      CONVERT_TIMEOUT_S: ${CONVERT_TIMEOUT_S:-120}
+    restart: unless-stopped
