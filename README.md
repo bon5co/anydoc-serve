@@ -146,7 +146,9 @@ RapidOCR reads pure Japanese far better and two-script pages slightly better. It
 
 ## Deploy on Railway
 
-TODO: Railway template link.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anydoc-or-just-updated-any-document-to-m?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+One service, no volume. `API_KEY` is generated at deploy (read it from the service's Variables tab) and `OCR_LANGS` defaults to `eng,jpn,tha`. Measured on Railway: 246 to 263 MiB of RAM idle, 272 MiB after a round of conversions.
 
 ## Development
 
